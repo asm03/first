@@ -1,0 +1,761 @@
+defect,severity,state,component,owner,orignator,age,abstract
+1031644,2,open,,fcscreen,chandu,vinkarne,0,FVT_DEV:P9:fcs link up fails for first cfgmgr in Coho DA.
+1031643,1,open,,esw_pfw_screen,fwscreen,vinkarne,0,HOT:FVT_DEV:P9:FC disks not visible in SMS menu for Coho DA.
+1031575,1,open,,esw_pfw_screen,fwscreen,pgohil,1,FVLI-1D0-VEV:P9:vnic vlan netboot ping fails
+1031533,1,open,,pcimlxent,shouchun,sadmordi,1,FVTR_DEV:P9 : CX3-Pro going to Unknown state
+1031402,1,returned,usage,devscreen,scrnteam,lkambadu,0,FOCUS:FVTR_DEV:P9 : NIM installation is hanging  after TFTP
+1031400,1,returned,limitation,bosboot,macro,archangg,0,HOT:FVLI-1MY-VIOS:P9:ZZ:NVMe altinst_rootvg boot failed
+1031382,1,open,,libodm,gruzek,shiparam,2,FVLI-8BR: reducevg is failing and resulted in core dump
+1031342,2,open,,vnic_server,xqin,pgohil,3,FVLI-1D0-VEV:P9:vnic setting jumboframe and ifconfig fails
+1031336,2,open,,ioscli,nmpramod,mukul,3,FVLI-1MY-VIOS:P9:NVMe+non-nvme Flash vscsi disk seen Rotational
+1031307,1,working,error,dascache,sangeek,dittjose1,3,FVTR_DEV:cache states are shown as inactive after lpm.
+1031296,1,canceled,usage,ioscli,arun392,madhusmita,1,FVLI-8BR:viosbr restore failed to restore mapping
+1031279,2,open,,pool,dcmcdoug,krupa,3,RECR: FVTR_DEV:IO read failed and fs remove hang in PM_BP a4   
+1031166,1,open,,dascache,vamshikrishna,dittjose1,6,HOT:FVTR_DEV:aix lpar crashed @ do_compare+000308 on npiv disk
+1030958,1,working,error,BusTransport.phyp,djlarson,lkambadu,8,HOT:FVT_DEV:P9 :CEC is crashing with B700F103 when trying to ta
+1030934,2,canceled,usage,dascache,vamshikrishna,dittjose1,1,FVT_DEV:cmpart get assigned with lparid wn multiple vhost exist
+1030923,1,working,error,sysxcluster,gip,kvaliapa,8,FVT_INT : crash in sec_thread
+1030922,1,canceled,unrecreatable,vnic,srikanko,pgohil,1,FVLI-1D0-VEV:P9:AIX Lpar Crashed for vnic entstat and reset
+1030867,2,open,,pcimlxcent,vmansur,kvaliapa,9,FVT_DEV:ftp hang in CX4 when jumbo frames are enabled
+1030836,1,open,,pcishient,madan,sadmordi,9,FOCUS:FVTR_DEV:Ping is failing due EID
+1030802,2,verify,error,rsct,ravikiran,krupa,0,FOCUS:FVTR_DEV:coredump when running SSP dynamicconfig a88
+1030793,1,open,,sysxnvme,hemanta,mukul,9,FVLI-1MY-DDD:P9:ZZ: NVMe adapter pushed to Defined state
+1030743,1,returned,duplicate,PF.afwp,kulich,swetha,2,HOT:FVLI-1D0-NEV:P9:Not able to move 25G everglade to sriov mod
+1030736,1,canceled,unrecreatable,pcimlxcent,balt,swetha,3,FVLI-1D0-NEV:P9: LPAR Crash with ifconfig up on everglades
+1030724,1,verify,error,pool,ninad,krupa,8,FVTR_DEV:split block hang in a16
+1030718,2,returned,vague,pcimlxcent,balt,nnandula,9,FOCUS:FVLI-1AT:P9:Natural EEH with adapter reset and entstat
+1030658,3,returned,design,ioscli,nmpramod,archangg,1,FVLI-1MY-VIOS:disk desc in aix clnt for lv frm nvme and non-nvm
+1030559,2,returned,design,cfgstorage,ralgsd,archangg,3,FOCUS:FVTR_DEV:max_trnsfr attr val nt set right for few values
+1030495,2,canceled,fixed,pool,ninad,krupa,9,FOCUS:FVTR_DEV:dump filemap improper in diskcache a56
+1030445,2,canceled,duplicate,pool,janet,krupa,12,FVTR_DEV: IO hang in diskCache a55
+1030409,2,closed,error,pool,dcmcdoug,krupa,6,FVTR_DEV:pool stopdisk failed in PM BP a1
+1030379,1,open,,pcishient,madan,lkambadu,14,FOCUS:FVTR_DEV:P9 : Ioctl  ndd_enable_adapter fails to ping
+1030370,3,returned,usage,cfgstorage,ralgsd,archangg,4,FOCUS:FVTR_DEV:impropr err msg for modfying attr of disk in use
+1030369,2,working,error,pcilnc2ent,jcunning,pgohil,14,FVT_DEV:mcast receive fails if adapter is reset houston
+1030243,1,canceled,duplicate,BusTransport.phyp,djlarson,pgohil,0,HOT:FVLI-1D0-NEV:P9: adding VF adapter dynamically fails
+1030231,1,canceled,duplicate,BusTransport.phyp,arroyoj,nnandula,2,HOT:FVT_DEV:P9:p9zzf-fsp CEC stuck at B7000103
+1030200,2,working,error,sysxvio_mgrs_lpm,trupesh,krupa,15,FOCUS:FVTR_DEV:find_devices did not fail if NPIV LUs not access
+1030198,2,returned,fixed,dascache,vamshikrishna,madhusmita,0,FOCUS:FVTR_DEV:Encountered do_pdm_submit_read_work() IO error
+1030000,2,open,,pcimlxcent,shouchun,nnandula,17,FOCUS:FVLI-1AT:P9:Entstat commands hung after EID
+1029993,1,canceled,fixed,pcimlxcent,shouchun,nnandula,1,HOT:FVLI-1AT:P9:LPAR crash during boot up EG in slot C7
+1029971,1,canceled,,sysxcflash,sanket,lkambadu,0,FVTR_DEV: Data miscompare during microcode upgrade with H
+1029930,2,closed,error,pcimlxcent,balt,nnandula,10,FVLI-1AT:P9:FW Update failure due to reserve field value change
+1029925,2,working,error,vrtent,jcunning,lkambadu,20,entstat.vrtent EFAULT when global buffer crosses 4KB boundary
+1029860,2,open,,sysxnvme,hemanta,mukul,20,FVLI-1MY-DDD:P9:ZZ: NVMe Contr doesn't show all namespace IDs
+1029858,2,open,,sysxnvme,hemanta,mukul,20,FVLI-1MY-DDD:P9:ZZ: NVMe Contr doesn't create all IO Qs req.
+1029786,2,returned,duplicate,htx_screen,veeresh,lkambadu,4,HTX disk stanza's are not  generated CAPI flash for SPIO pluns
+1029685,2,open,,sysxicm,shouchun,kvaliapa,14,RECR:FVTR_DEV: udapl ping failing for galaxy IB adapter
+1029603,1,canceled,other_s/w,sysxvio_lib,veena,dittjose1,1,FOCUS:FVTR_DEV:lu map fails with database commit error.
+1029372,1,canceled,hardware,pool,gjertsen,krupa,1,FOCUS:FVTR_DEV:IO failed when replacing disks using chsp in SSP
+1029366,1,open,,pcimlxcent,balt,swetha,24,FVLI-1D0-NGL:P9:Promiscuous mode is failing for unicast traffic
+1029326,3,canceled,unrecreatable,pcimlxcent,balt,nnandula,1,FVLI-1AT:P9: Odm mismatches observed on EG
+1029256,1,working,error,bosboot,macro,mukul,27,FVLI-1MY-DDD:P9:ZZ:NVMe altinst_rootvg boot hung at 0554
+1029232,2,working,error,ioscli,arun392,mukul,27,FVLI-1MY-VIOS: P9: ZZ: LEGACY:cluster -capable gives wrong info
+1029228,2,canceled,design,sysxdisk,rohit,mukul,0,FVLI-1MY-VIOS: P9: ZZ: DF_LBP flag set on VIO client for NVMe
+1029142,2,open,,netcd,dimpu,pdakappa,28,FVT_DEV:num cached entries and cache statistics differ for loca
+1028877,1,working,error,pcimxib,shouchun,kvaliapa,30, FVTR_DEV: crash in net_malloc_cpu while configuring ib
+1028851,2,closed,error,pool,gjertsen,krupa,16,FVTR_DEV:pool stop hang in poolstop_id_multinode a3
+1028827,2,closed,error,pool,gjertsen,krupa,16,FVTR_DEV:pool stop hang in tiermisc a41
+1028824,2,open,,ca_screen,azhamoha,vinkarne,30,FVLI-PsCacheUpdatePageData:CA:Seg fault for NULL page name
+1028740,1,open,,pool,asolo,krupa,31,FOCUS:FVTR_DEV:pool hang in PM BP a125
+1028683,2,working,error,pcimlxcent,balt,swetha,34,FVTR_DEV:Mcast Adds and Removes taking a long time
+1028628,1,canceled,fixed,pool,dcmcdoug,dittjose1,0,HOT:FVTR_DEV:system crash @ tmHandleDataRangeLock+0007FC
+1028620,2,open,,pool,dcmcdoug,krupa,34,FOCUS:FVTR_DEV:poolmonitor hang in PM BP a115
+1028610,2,returned,design,sysxcflash,vbodduku,pradghos,3,FVLI-1YH:not getting proper UA attention expection.
+1028598,2,canceled,unrecreatable,fcscreen,chandu,vinkarne,4,FVLI-16P:P9:alt_disk_copy doesnot change the bootlist order.
+1028593,2,returned,vague,sysxcflash,vbodduku,lkambadu,3,FVLI-1YH:Configuring odm attributes of capi disks are not show
+1028552,2,open,,sysxsmcr,dimpu,kvaliapa,35,FVT_INT: rmdev -dl smcr0 is not unloading smcr after ftp transf
+1028532,2,canceled,fixed,sysxvio_daemon,mjmcelen,madhusmita,27,FVT_DEV:sspcache -statistics showng Internal error inbetween
+1028496,1,working,error,sysxsmcr,sgundura,kvaliapa,35,FVT_INT: crash in smcr_xmit_rdma_error+00004C
+1028478,2,open,,dascache,vamshikrishna,madhusmita,35,FVT_DEV:cache_mgt extend fail to extend cache pool size
+1028474,2,open,,sysxsmcr,sgundura,kvaliapa,35,FVT_INT: ftp takes 300 sec to transfer file- port_range is zero
+1028470,2,open,,sysxsmcr,sgundura,kvaliapa,35,FVT_INT: ftp is hanging when enabled is set to zero
+1028469,2,canceled,duplicate,pool,janet,krupa,13,FVTR_DEV:file migrate hang in filemigration a42
+1028407,2,canceled,limitation,sysxcflash,sanket,lkambadu,1,FVLI-1YH : mkvg pops up warning messages for capi disks
+1028396,1,canceled,hardware,pool,gjertsen,dittjose1,9,FOCUS:FVTR_DEV:pv add fails with pool subsystem failure msg.
+1028381,1,canceled,usage,sysdump,savitri,swetha,10,FVT_DEV: Livedump fail on vnic client of houston VF
+1028374,1,canceled,duplicate,devscreen,scrnteam,nnandula,0,FVT_DEV:P9:LPAR Crashed when HTX was initiated.
+1028321,2,canceled,duplicate,pool,janet,krupa,15,FVTR_DEV: splitblock hang in splitblock a16
+1028261,2,returned,vague,sysxcflash,vbodduku,lkambadu,2,FVLI-1YH :Link and disk error in errpt while running cfgmgr -vl
+1028260,2,open,,pool,gjertsen,krupa,38,FVT_DEV:pool start failed after fail IO in SSP PM BP
+1028259,2,returned,design,sysxcflash,vbodduku,pradghos,7,FVLI-1YH:excp DK_CE_SIZE_CHANGE not genrated for disksize chang
+1028255,1,closed,error,pkgdevvscsi,arun392,dittjose1,23,FVTR_DEV:cache partition is not properly listed on client
+1028250,1,canceled,design,CoherentAccel.phyp,tomburks,pradghos,0,FVLI-1YH:system in bad state: B2001281 while taking dump
+1028243,1,working,error,sysxcflash,vbodduku,lkambadu,38,HOT-FVLI-1YH : AIX machine is crashed during CAPI legacy HTX
+1028242,1,returned,duplicate,pool,janet,krupa,30,FVTR_DEV:pool/rmdisk hang in tiershrink a38
+1028240,1,canceled,duplicate,devscreen,scrnteam,swetha,4,FVLI-1D0-NGL:P9:LPAR Crash while creating VF on 100G CX4 GP
+1028233,1,returned,unrecreatable,htx_screen,veeresh,kvaliapa,0,FVT_INT: crash @ comread+001B88
+1028232,1,canceled,duplicate,sysxcflash,vbodduku,pradghos,0,HOT:FVLI-1YH:crash @ cflash_do_disk_close+0002B8
+1028227,2,open,,netcd,dimpu,pdakappa,38,FVT_DEV:multiple cache entries found though hash size is 1
+1028192,1,canceled,duplicate,BusTransport.phyp,djlarson,pgohil,4,HOT:FVLI-1D0-VEV:P9:AIX Lpar crashed while adding SRIOV
+1028121,2,returned,duplicate,mpioscreen,ralgsd,akt,7,FVTR_DEV:Some paths are not used for IO post cable pull
+1028118,2,closed,error,pool,janet,krupa,27,FVTR_DEV:rmdisk taking very long time in tiershrink
+1028111,1,canceled,,pcimlxent,shouchun,sadmordi,21,FVT_DEV:P9:Adapter link is doing down when htx and ofed running
+1028106,1,closed,error,pool,ninad,krupa,21,FVTR_DEV:crash @ prNotifySafeCondWaitInternal+0002A8
+1028089,1,open,,pool,asolo,krupa,41,FOCUS:FVTR_DEV:crash @ diAllocIno+0001AC
+1028088,1,returned,vague,PF.afwp,kulich,swetha,10,FOCUS:FVTR_DEV:Hardwr err while loadng max mcast filters on CX4
+1028045,2,canceled,fixed,pool,gjertsen,krupa,34,FOCUS:FVTR_DEV:pool unmount hang in poolmake a19
+1028040,1,open,,pool,dcmcdoug,dittjose1,42,RECR:FVTR_DEV:AIX lpar crashed @ do_compare+000308
+1028003,1,working,error,rspcios,nstilwe,lkambadu,42,HOT-FVLI-1YH :Files system I/O causing Capi DMA errors and i/o
+1027993,2,canceled,hardware,sysxcflashblock,jpallen,pradghos,6,FVLI-1YH:IO is getting successful beyond max transter of vlun
+1027986,1,closed,error,pcimlxcent,balt,nnandula,32,FVLI-1AT:P9:Link Status unknown after HTX and FW upgrad
+1027984,1,returned,usage,sriov_pf_screen.afwp,tmhoffma,swetha,1,HOT:FVLI-1D0-NGL:P9: Not able to add VF for Glacier Park
+1027976,2,canceled,usage,vnic,srikanko,swetha,20,FVT_DEV:Unable to take component trace at sys trace mode
+1027974,2,canceled,unrecreatable,vnic,srikanko,swetha,20,FVT_DEV:Unable to take component trace in mem trace mode
+1027912,2,canceled,duplicate,everglades,restrad,nnandula,0,FVLI-1AV:P9:Everglades FW upgrade takes app min 30min
+1027903,2,returned,unrecreatable,pool,gjertsen,krupa,27,RECR: FVTR_DEV:pv -remove hang in SSP BAT a41                  
+1027902,1,canceled,duplicate,PF.afwp,kulich,nnandula,0,FVLI-1AV:P9:LPAR with everglades adapter in slot C7 dumps
+1027901,2,open,,pool,janet,krupa,43,RECR: FVTR_DEV:pattern write hang in leader_mfs_recovery a13   
+1027898,2,canceled,fixed,vnic,srikanko,pgohil,26,RECR:FVLI-1D0-VEV:P9:EG10Gvnic ACLS not correct with HCALL
+1027895,2,canceled,,hmc_screen,hmcscrn,pgohil,0,FVLI-1D0-VEV:P9: adding vnic adapter failed.
+1027872,2,canceled,usage,sysxcflash,vbodduku,pradghos,2,FVLI-1YH:DK_CPIF_DISABLED flag check failed after path disabled
+1027855,2,closed,error,sysxcflash,vbodduku,pradghos,2,FVLI-1YH: vlun resize to complete Phys lba for multlun env fail
+1027850,1,canceled,limitation,devscreen,scrnteam,archangg,0,HOT:FVLI-1MY:P9:ZZ:71Z bld installtn hangs for POWER9 mode AIX
+1027848,2,closed,error,sysxcflash,vbodduku,lkambadu,2,FVLI-1YH : SYSALLOC errpts are reported during config/unconfig
+1027836,1,working,error,sysxsmcr,dimpu,kvaliapa,43,FVT_INT: crash in smcr_server_LN_create_secondary
+1027833,2,open,,pool,janet,krupa,43,RECR: FVTR_DEV:pool remove hang in tiermisc a37                
+1027753,1,working,error,ca_screen,krmaurya,vinkarne,44,FVTR_DEV:CA:CF crash @ cshdlc
+1027752,1,canceled,hardware,BusTransport.phyp,djlarson,archangg,0,FVLI-1MY: P9: ZZ:p9zze-clnt AIX lost network connectivity
+1027736,3,working,error,sysxvio_lib,nmpramod,archangg,44,FVLI-1MY-VIOS:libtest val fails for MPIO algo param for 1.22xsd
+1027733,1,canceled,hardware,BusTransport.phyp,djlarson,mukul,0,FVLI-1MY: P9: ZZ: NVMe M.2 Card dead while IO inflight
+1027728,2,canceled,unrecreatable,vnic,srikanko,swetha,23,FOCUS:FVTR_DEV: Packets discarded for bad checksum
+1027724,2,canceled,design,pcilnc2ent,jmessing,swetha,0,FVTR_DEV: Mac address verification on VF & vnic client are diff
+1027706,1,open,,pool,dcmcdoug,madhusmita,44,FOCUS:FVT_DEV:system crash@tierValidateAttr+0000D0
+1027699,1,verify,error,sysxinet,davemarq,kvaliapa,36,FVT_INT: crash in pmtu_alloc
+1027565,1,canceled,limitation,devscreen,scrnteam,nnandula,0,FVLI-1AT:P9:LPAR with everglades adapter in slot 10,12 crash
+1027560,1,canceled,duplicate,esw_phyp_screen,aweber,mukul,1,FVLI-1MY: P9: ZZ: NVMe M.2 Card dead while IO inflight
+1027537,3,working,error,sysxvio_lib,nmpramod,archangg,48,FVLI-1MY-VIOS:LEGACY:desc in o/p xml for MPIO flash disk is N/A
+1027530,1,open,,pool,dcmcdoug,krupa,48,RECR: FVTR_DEV:pool and tier remove hang at SSP BAT a39        
+1027528,1,verify,error,sysxcflashblock,jpallen,lkambadu,18,HOT-FVLI-1YH : HTX SPIO with EEH injection casues i/o
+1027526,1,working,error,sysxcflash,avuphani,lkambadu,48,HOT- FVLI-1YH: Miscompare observed during cable pull HTX I/O
+1027524,2,canceled,usage,dascache,vamshikrishna,dittjose1,11,FOCUS:FVTR_DEV:createcache API fails with RC: 9
+1027515,2,canceled,unrecreatable,esw_pfw_screen,cde03,mukul,3,FVLI-1MY: P9: ZZ: Platform F/w Unrecoverable errors while IO on
+1027514,1,working,error,sysxvio_mgrs_lpm,debn1,madhusmita,48,FVTR_DEV:viobr dr failed to restore cluster
+1027428,1,returned,duplicate,sysnet_netm,davemarq,kvaliapa,0,FVT_INT: crash in netkmem_dr_mem_remove
+1027424,1,returned,duplicate,pool,dcmcdoug,kvaliapa,0,FVT_INT: crash in xmdbg_do_xmfree_record
+1027416,1,returned,duplicate,devscreen,scrnteam,kvaliapa,0,FVT_INT: crash in ib_dispatch_event
+1027414,2,closed,error,pool,ninad,krupa,6,FVTR_DEV:pool stop hang in poolstop_id_multinode a3
+1027407,1,working,error,sysxsmcr,dimpu,kvaliapa,49,FVT_INT: crash in smcr_client_process_llc_add_link
+1027399,1,verify,error,vrtscsi,stadi,lkambadu,21,FVT_INT:config/unconfig for virtio devices causes no swap space
+1027391,1,working,error,sysxcflash,avuphani,lkambadu,49,FVLI-1YH :AIX machine is crashed during cable opertion, HTX I/O
+1027287,1,working,error,sysxsmcr,sgundura,kvaliapa,50,FVT_INT: crash in smcr_xmit_mbuf+0002A4
+1027286,1,canceled,limitation,ioscli,ruchira,dittjose1,1,FVT_INT:viosbr restore for cluster fails
+1027266,2,verify,error,diag,faisal,lkambadu,20,FVLI-1YH:Diagnostics failed to download microcode to CAPI Flash
+1027171,1,returned,fixed,sysxvio_vscsi_client,sangeek,kvaliapa,20,RECR: FVT_INT: crash in e_block_thread                         
+1027159,1,working,error,sysxsmcr,dimpu,kvaliapa,51,FVT_INT: crash in smcr_init_qp_rtr_state
+1027154,1,open,,pool,janet,krupa,51,RECR: FVTR_DEV:crash @ emCreateCondition+000284                
+1027039,1,returned,unrecreatable,sysnet_netm,davemarq,kvaliapa,17,RECR: FVT_INT: crash in police_net_malloc@AF97_65+000280       
+1027023,2,canceled,usage,sysxnvme,hemanta,archangg,11,FVLI-1MY-VIOS:P9:ZZ:AMS paging dev lists LV from 512B NVMe disk
+1027020,3,canceled,,hmc_screen,hmcscrn,sadmordi,0,FVT_DEV:P9:HMC version is not completely listed
+1027016,1,working,error,sysxsmcr,sgundura,kvaliapa,52,FVT_INT : Crash in smcr_abort+00006C
+1026870,1,closed,error,sysxcflash,vbodduku,pradghos,13,FVLI-1YH:IO(wr/rd) buff comp failed for vlun
+1026857,1,working,error,sysxsmcr,harikm,kvaliapa,55,FVT_INT : Crash in queue_work
+1026856,1,working,error,sysnet_netm,davemarq,kvaliapa,55,FVT_INT: Crash in net_kmem_rmlist                        
+1026830,1,canceled,limitation,pcimlxcent,balt,swetha,6,FVTR_DEV: Packet of size 1473 is dropped over vlan of the VF
+1026812,1,working,error,sysxsmcr,sgundura,kvaliapa,56,FVT_INT: crash in smcr_process_cdc
+1026758,1,closed,error,sysios,mrochs,pradghos,15,FVLI-1YH: Trap in iostdel_mpio() at simple_unlock_mem
+1026755,1,working,error,dascache,sangeek,dittjose1,56,FVT_INT:max_partition count shows 1 for cengine0 after RU
+1026738,1,open,,pcimlxent,shouchun,kvaliapa,56,FVT_INT: crash in rdmacore_ioctl
+1026696,1,canceled,fixed,sriov_pf_screen.afwp,tmhoffma,swetha,2,FVTR_DEV: Slate adapter fail to move into sriov mode - many LPA
+1026656,2,canceled,usage,sysxcflash,vbodduku,pradghos,0,FVLI-1YH:cfgmgr is giving warning for cflash
+1026649,2,open,,corscreen,phernand,pdakappa,57,FVT_INT:WPAR creation fails if ofed.smcr fileset is installed
+1026646,1,returned,duplicate,sysxsmcr,sgundura,kvaliapa,1,FVT_INT: crash in smcr_insert_dll_in_list
+1026618,2,returned,usage,sysxaixif,davemarq,pdakappa,0,FVTR_DEV:ip configured on deleted interface is pingable
+1026616,2,open,,rdmacore_v2,jmessing,kvaliapa,57,FVT_INT: rping core dumps
+1026535,1,closed,error,pool,ninad,krupa,2,FVTR_DEV:pool make/start failed
+1026489,1,canceled,duplicate,rspcios,nstilwe,dittjose1,14,FVTR_DEV:lpm fails with errror code: HSCLA27D
+1026463,1,returned,hardware,sysxvio_mgrs_lpm,trupesh,archangg,6,FOCUS: FVTR_DEV:LPM val fails when src_lun_val is enabled
+1026459,1,working,error,sysxsmcr,sgundura,kvaliapa,58,FVT_INT: crash in smcr_free_tx_wr
+1026388,2,closed,error,sysxcflash,vbodduku,pradghos,2,FVLI-1YH:Cflash disk traces are not working
+1026377,1,closed,error,pool,ninad,krupa,14,FVTR_DEV:pool/replacepv hang in SSP tier_failgrp a24
+1026367,2,returned,vague,pool,jgmairet,krupa,1,FOCUS:FVTR_DEV:pool start hang in asymNetwork a40
+1026362,1,returned,unrecreatable,sysxinet_tcp,davemarq,kvaliapa,24,RECR: FVT_INT: apparent system hang                            
+1026339,1,returned,unrecreatable,sysnet_netm,davemarq,kvaliapa,25,RECR: FVT_INT: crash in abend_trap                             
+1026239,1,working,error,ofed,jlhall,kvaliapa,62,FVT_INT: crash in e_block_thread and mutex_semaphore_lock
+1026224,1,working,error,sysxcflash,avuphani,pradghos,57,FVLI-1YH: IO error over cflash disk with htx
+1026201,1,closed,error,pool,janet,krupa,17,FVTR_DEV:crash@nmCleanupCluster+00050C
+1026195,1,working,error,sysxsmcr,harikm,kvaliapa,62,FVT_INT: crash in smcr_move_free_unused_rmbs
+1026171,1,verify,error,sysxcluster,gip,kvaliapa,55,FVT_INT : crash in sec_thread
+1026166,1,canceled,hardware,caascreen,eecruzag,krupa,36,RECR: FVTR_DEV:consumerAha/pool got hung in ahafsEventMon a21  
+1026154,2,canceled,design,sysxcflash,anumula2,pradghos,1,FVLI-1YH:clean up old PCM value from ODM
+1026150,2,canceled,design,sysxcflash,anumula2,pradghos,1,FVLI-1YH: new PCM value not fetching PdAt for disk
+1026084,2,open,,sysxsmcr,dimpu,pdakappa,63,FVT_INT:Same remote and local peerid with 4 LGs among 2 hosts
+1026083,1,closed,error,sysxcflash,vbodduku,pradghos,6,FVLI-1YH:crash@cflash_disk_watchdog+0003D8
+1026077,1,working,error,sysxsmcr,harikm,kvaliapa,63,FVT_INT:  crash in smcr_xmit_mbuf
+1026070,2,canceled,other_s/w,sysxnvme,hemanta,archangg,22,FVLI-1MY-DDD:P9:ZZ: lscfg cmd dsn't list VPD data for nvme dev
+1026031,1,canceled,fixed,sysxvio_mgrs_lpm,trupesh,dittjose1,7,FOCUS:FVTR_DEV:lpm fails with ssp caching and virtual mode cach
+1025984,1,verify,error,sysxvio_vscsi_client,sangeek,madhusmita,47,FVT_INT:HTX error occured while enable virtual & ssp cach
+1025979,2,canceled,design,hmc_screen,hmcscrn,dittjose1,0,FOCUS_FVTR_DEV:cec doesnt detect the freed up mem after suspend
+1025960,1,working,error,sysxsmcr,sgundura,kvaliapa,64,FVT_INT: crash in smcr_remove_all_pcbs
+1025959,2,returned,design,sysxsmcr,sgundura,pdakappa,0,FVT_INT:communication over etherchannel uses SMCR
+1025947,2,open,,PF.afwp,jimdonne,swetha,65,HOT:FVTR_DEV: Manage Pages Deprovision Pages Race Condition
+1025905,1,returned,duplicate,pool,gjertsen,krupa,2,FVTR_DEV:lpar ran out of memory when running fs_make tc
+1025892,1,working,error,sysxsmcr,sgundura,kvaliapa,65,FVT_INT: crash in soputonfreelist
+1025884,1,closed,error,pool,ninad,krupa,9,FVTR_DEV:pool hang in importdisk a78
+1025873,2,closed,error,sysxcflash,vbodduku,pradghos,8,FVLI-1YH:rmpath failed to disbale path.
+1025871,1,closed,error,pool,asolo,krupa,57,FVTR_DEV:crash@csmProcessPublishPDiskMap+0009CC
+1025858,2,closed,error,sysxcflash,vbodduku,pradghos,8,FVLI-1YH:mkpath failed to make path available
+1025856,1,canceled,duplicate,PF.afwp,kulich,swetha,2,HOT:FVLI-1D0-NGL:P9:CEC reboot while load max mcst filter on VF
+1025852,1,verify,error,BusTransport.phyp,ramhazar,vinkarne,10,HOT:FVT_DEV:P9:p9zzb-fsp:CEC crashes with error code B700F103
+1025834,2,returned,design,sysxcflash,vbodduku,pradghos,0,FVLI-1YH: PCM value is not as expected in ODM and lsattr
+1025830,1,canceled,design,tcpras,davemarq,nnandula,0,FVTR_DEV:P9:tcpdump buffer size has increased across build
+1025828,2,closed,error,sysxvio_lib,nmpramod,archangg,10,FVLI-1MY-VIOS:vg del qry res dsn't hav pv attr 'in_use' - 'no'
+1025825,3,closed,error,sysxvio_lib,nmpramod,archangg,10,FVLI-1MY-VIOS:libtest fails for cache attr in VG for xsd1.22
+1025772,1,canceled,fixed,pcimlxcent,balt,swetha,0,FVLI-1D0-NEV:P9: ifconfig up failing on everglades 25G SRIOV VF
+1025752,1,canceled,,pool,dcmcdoug,krupa,3,FOCUS:FVTR_DEV:lpar ran out of memory when running tier tests
+1025745,1,open,,pool,jgmairet,krupa,66,RECR: FVTR_DEV:crash@ lock_read_ppc+0008F4                     
+1025721,1,closed,error,entcore_v2,balt,kvaliapa,66,FVT_INT: crash in entcore_destroy_rte_locks
+1025603,1,canceled,usage,devscreen,scrnteam,archangg,0,FVLI-1MY-VIOS:mkvg cmd on nvme disk crashed @hd_read+000000
+1025601,2,canceled,usage,cmdlvm,lakshmiy,pradghos,17,FVLI-1YH:error msg improvement in extending rootvg in cflassh
+1025586,1,canceled,vague,devscreen,scrnteam,dittjose1,6,FOCUS:FVTR_DEV:lpm fails with ssp lu mappings to clients.
+1025559,2,open,,tcprcmds,dimpu,pdakappa,69,FVT_DEV:ftp, rsh and rlogin fails with link local zone id
+1025541,1,canceled,usage,pool,ninad,dittjose1,45,HOT:BLK:FVTR_DEV:htx i/o error with vscsi rw_timeout 300
+1025539,2,canceled,duplicate,dascache,sangeek,dittjose1,36,FVTR_DEV:cache_mgt cache list output doesnt show few disk
+1025533,1,canceled,,sysxvio_vscsi,mikecyr,dittjose1,65,RECR: FVTR_DEV:lpm does not complete properly with sspcaching  
+1025473,1,canceled,design,CoherentAccel.phyp,tomburks,pradghos,0,FVLI-1YH:system hang / bad state while taking partition dump -
+1025464,2,returned,usage,vioent,srikanko,sadmordi,68,FVT_DEV:P9:ndd_stop_trace ioctl is failing onVEA adapter
+1025463,1,canceled,hardware,fcscreen,chandu,vinkarne,1,FVTR_DEV:P9:p9zzb-fsp:CEC crashes with  Bluefin bring up
+1025458,2,canceled,duplicate,pool,janet,krupa,6,FVTR_DEV:fs rmsnap hung in filerollbackcg a35
+1025452,2,open,,pool,dcmcdoug,krupa,70,FOCUS:FVTR_DEV:failgrp -remove hung in SSP pv remove testbucket
+1025438,1,canceled,design,BusTransport.phyp,tpizel,swetha,0,HOT:FVT_DEV:P9:Convert adapt to sriov mod takes too much memory
+1025437,1,canceled,duplicate,pool,jgmairet,krupa,6,FVTR_DEV:rmdisk/pool hang in poolmirroring a68
+1025329,1,closed,error,sysxcflash,vbodduku,pradghos,14,FVLI-1YH:crash@cflash_process_chn_cmd+000318
+1025317,2,returned,limitation,sysxcflash,vbodduku,pradghos,40,FVLI-1YH: lsmpio is still not working on latest build
+1025166,1,canceled,,BusTransport.phyp,arroyoj,nnandula,4,HOT:FVT_DEV:P9:p9zzd-fsp:CEC at SRC B7006970  before NCU
+1025139,2,open,,sysxsmcr,dimpu,pdakappa,73,FVT_DEV:asymmetric link creation failed
+1025128,1,canceled,unrecreatable,vrtscsi,stadi,madhusmita,5,HOT:FVLI-1VS-VSC: I/O(s) hung on VM
+1025064,1,canceled,fixed,BusTransport.phyp,ramhazar,pgohil,13,FVLI-1D0-VEV:P9:activating Lpar fails and CEC goes into ERROR
+1025037,2,returned,usage,sysxcflash,vbodduku,pradghos,3,FVLI-1YH: int_ranges missing in PdAt Values for cflash
+1025031,2,closed,error,kvm_screen,liema,pradghos,61,FVLI-1VS-VSC:message improvement during NIM install
+1025027,2,returned,limitation,vrtent,jcunning,lkambadu,0,FVLI-1VS_NIC: UDP checksum offload is not happening
+1024989,1,canceled,,sriov_pf_screen.afwp,joncfouk,swetha,6,FVLI-1D0-NEV:P9: Everglades SRIOV not getting detected
+1024900,1,canceled,duplicate,pool,dcmcdoug,krupa,1,FVTR_DEV:crash@cmRemoveCachedChildrenWithInfo+0000C0
+1024853,1,canceled,duplicate,sriov_pf_screen.afwp,tmhoffma,pgohil,7,HOT:FVTR_DEV:P9: Moving Slate adapter into SRIOV mode fails
+1024804,2,verify,error,sysxcflash,vbodduku,pradghos,74,FVLI-1YH:cfgmgr return wrong error on cflash adap
+1024776,1,working,error,sysxvio_lib,veena,krupa,78,FVTR_DEV:cluster -status MTM value is not proper
+1024570,1,returned,duplicate,vrtscsi,stadi,lkambadu,9,HOT-FVLI-1VS-VSC : I/O failure on disk of virtio SCSI
+1024442,1,canceled,unrecreatable,pcimlxent,shouchun,sadmordi,55,FVTR_DEV:P9:Microcode fails whiling running IO traffic
+1024431,2,canceled,duplicate,pool,jgmairet,krupa,0,FOCUS:FVTR_DEV:fs rmclone hang at fsrmclone a20
+1024429,2,canceled,duplicate,pool,jgmairet,krupa,0,FOCUS:FVTR_DEV:splitblock and rmdisk hung at splitblock a51
+1024358,1,canceled,,esw_phyp_screen,phypscrn,nnandula,49,HOT:FVT_DEV:P9:p9zzd-fsp:Shinner adapter stuck at AA00E1A9
+1024347,2,canceled,vague,cmdcfg,gruzek,pradghos,32,FVLI-1YH: cfgmgr retuned fail on cflash adapter
+1024331,1,closed,error,pool,ninad,krupa,0,FVTR_DEV:crash@prNotifySafeCondWaitInternal+0002A8
+1024326,2,canceled,usage,fcscreen,chandu,vinkarne,15,FVT_DEV:P9:FW update on fcs dont reflect on other ports
+1024323,2,canceled,usage,fcscreen,chandu,vinkarne,14,FVT_DEV:P9:SCIOLADAPEVENTLOG ioctl fails for sailfish
+1024322,1,open,,fcscreen,chandu,vinkarne,84,FVT_DEV:P9:IO fails with target cable swap with v7000 storage
+1024243,1,closed,error,sysxcflash,vbodduku,pradghos,28,FVLI-1YH: vg creation failed on cflash disk
+1024242,2,closed,error,pool,ninad,krupa,2,FOCUS:FVTR_DEV:fs remove hang when running psnapshot_file
+1024233,1,canceled,duplicate,pool,ninad,krupa,0,FVTR_DEV:crash @csmLockDataForIOOptimized+00028C
+1024232,1,canceled,duplicate,pool,ninad,dittjose1,0,FVTR_DEV:system crash@dpServerGetPGMap+000AEC & osRWLockU
+1024227,1,canceled,duplicate,pool,ninad,krupa,0,FVTR_DEV:crash@xm_bad_free+00025C
+1024209,2,working,error,sysxsmcr,dimpu,pdakappa,85,FVTR_DEV:kdb shows zeros in place of roce mac in peerid
+1024177,2,canceled,,ofed,jlhall,pdakappa,0,FVT_DEV:smcr0 device in available state on 720 release
+1024176,2,canceled,,ofed,jlhall,pdakappa,0,FVT_DEV:smcr0 device in available state on 720 release
+1024175,2,canceled,,ofed,jlhall,pdakappa,0,FVT_DEV:smcr0 device in available state on 720 release
+1024174,2,open,,ofed,jlhall,pdakappa,86,FVT_DEV:smcr0 device in available state on 720 release
+1024143,1,closed,error,pool,ninad,krupa,2,FVTR_DEV:crash@ csmLockFileDataRangeInternal+00068C
+1024140,1,canceled,fixed,pool,ninad,krupa,0,FOCUS:FVTR_DEV:crash@csmObjMyFileset+000014
+1024131,2,canceled,design,vrtscsi,stadi,pradghos,1,FVLI-1VS-VSC: rmdev -Rl and Rdl failed on vrtscsi driver
+1024085,1,canceled,duplicate,devscreen,scrnteam,kvaliapa,8,FVTR_DEV: crash in xm_bad_free while installing ofed file
+1024080,1,closed,error,pool,ninad,krupa,2,FVTR_DEV:crash@prOpEnd+0000A8
+1023997,2,canceled,design,sysxdisk,rohit,mukul,63,FVLI-1MY-VIOS: 512B disk misaligned IO behavior isn't as expect
+1023987,2,canceled,design,ioscli,nmpramod,mukul,17,FVLI-1MY-VIOS: 4B misaligned IO fail with inconsistent errno
+1023985,2,verify,error,ioscli,rohit,mukul,86,FVLI-1MY-VIOS: NVMe specific flags aren't set over vio client
+1023976,1,canceled,,devscreen,scrnteam,sadmordi,38,FOCUS:FVTR_DEV:P9 :CX3pro adapter doesn't coming up in VIOS.
+1023904,1,canceled,fixed,vrtent,jcunning,lkambadu,0,FVLI-1VS_NIC: Virtio NIC device is went into defined state
+1023900,2,closed,error,vrtent,jcunning,swetha,19,FVLI-1VS_NIC: ODM Attributes Mismatches
+1023894,2,canceled,fixed,vrtscsi,stadi,madhusmita,89,FVLI-1VS-VSC:No error log in errpt for qcow image unlink
+1023890,3,working,error,pcimlxent,vageline,sadmordi,78,FVTR_DEV:P9 Observing debug messag while updating the microcode
+1023880,1,verify,error,vrtscsi,stadi,madhusmita,73,HOT:FVLI-1VS-VSC:VM is not booting after FC port disable opr
+1023700,1,canceled,usage,kvm_screen,liema,madhusmita,1,FVLI-1VS-VSC:VM is not booting with Max Configuration Setup
+1023699,2,canceled,design,vrtscsi,stadi,pradghos,0,FVLI-1VS-VSC:SC_QUIESCE_IO devflags failed for SCIOCMD ioctl
+1023695,1,working,error,ca_screen,krmaurya,vinkarne,92,FVT_DEV:CF crashes during init with large list
+1023671,1,closed,error,vrtscsi,stadi,pradghos,23,FVLI-1VS-VSC:crash@kexitx+000878 after SCIOLREAD ioctl
+1023556,2,open,,vrtscsi,stadi,pradghos,93,FVLI-1VS-VSC:lsattr is shwoing old max transfer after change
+1023551,2,canceled,design,vrtscsi,stadi,pradghos,2,FVLI-1VS-VSC:IOCINFO returns wrong max_transfer size
+1023548,1,closed,error,vrtscsi,stadi,madhusmita,13,FVLI-1VS-VSC:devrsrv cmd on vrstscsi disk hang the VM
+1023541,1,verify,error,pool,dcmcdoug,dittjose1,9,FVTR_DEV:system crash@osRWLockUnlock+000024
+1023447,1,canceled,limitation,pcishient,ashu91,pgohil,11,FVT_DEV:microcode upgrade failes for Shiner adapters
+1023446,1,closed,error,vrtent,jcunning,lkambadu,8,FVLI-1VS_NIC: VLAN traffic of virtio NIC is slow
+1023437,2,canceled,fixed,vrtscsi,stadi,madhusmita,93,FVLI-1VS-VSC:FW assist dump should fail on VM
+1023410,2,canceled,unrecreatable,pool,gjertsen,krupa,93,FOCUS:FVT_DEV:pooladm test diskcache tcmdisplay failed (a31)
+1023405,1,canceled,hardware,sysxnvme,hemanta,mukul,0,FVLI-1MY-DDD: adapter dead while eeh + dev cfg/uncfg test
+1023298,1,canceled,duplicate,vrtscsi,stadi,madhusmita,25,HOT:FVLI-1VS-VSC:system crash@do_compare+000308
+1023213,1,canceled,duplicate,vrtscsi,stadi,madhusmita,0,FVLI-1VS-VSC:crash@vrtcore_queue_alloc+0012C0
+1023179,1,canceled,duplicate,pool,gjertsen,krupa,0,FVT_DEV:IO hang @ csmAcquireDataRangeLock+0003F8
+1023171,2,closed,error,sysxsmcr,dimpu,pdakappa,26,FVTR_DEV:SMCR basic functionality not working
+1023091,1,canceled,duplicate,devscreen,scrnteam,dittjose1,0,HOT:FVTR_DEV:Installation is failing with physical eth adapter
+1023085,1,verify,error,vrtscsi,stadi,madhusmita,1,FVLI-1VS-VSC:crash@vrtscsi_chan_process_tm_spec_ats+00019C
+1023084,1,closed,error,vrtent,jcunning,lkambadu,8,FVLI-1VS_NIC: Promiscuous mode  is not working on Virtio NIC
+1023079,2,canceled,duplicate,lsmcode,faisal,archangg,0,FVLI-1MY-DDD:lsmcode  for nvme adap returns non-zero rc
+1023071,2,canceled,vague,pool,ninad,madhusmita,8,FOCUS:FVTR_DEV:I/O error(HTX) after SSP cache enable/disable
+1022992,1,closed,error,libofed,jlhall,kvaliapa,52,FVTR_DEV:crash in mutex_semaphore_lock while shutdown
+1022824,2,closed,error,sysxvio_lib,nmpramod,archangg,35,FVLI-1MY-VIOS : Tracking K2 failures for XSD other than 3.00
+1022809,3,open,,sysxvio_mgrs_lpm,aanand17,krupa,104,FVLI-161-V2:Err msg not proper if alt vscsi id is hypothetical
+1022541,2,canceled,vague,dascache,vamshikrishna,madhusmita,9,FOCUS:FVTR_DEV:sspcache -status showing node status as pending
+1022431,1,verify,enhancement,vrtscsi,stadi,madhusmita,4,FVLI-1VS-VSC:crash@vrtscsi_chan_process_tm_spec_ats+000090
+1022419,1,returned,design,sysxcflash,cde03,pradghos,2,HOT:FVLI-1BE-REG:IO hang after context recover from multiLun
+1022344,2,open,,sysxnvme,hemanta,mukul,111,FVLI-1MY-DDD:smit shouldn't have "Location Label" for nvme disk
+1022343,2,open,,sysxnvme,hemanta,mukul,111,FVLI-1MY-DDD: smit doesn't allow adap max_dma_window update
+1022341,1,closed,enhancement,vrtscsi,stadi,pradghos,7,FVLI-1VS-VSC:crash@ vrtscsi_tm_issue_lr_cmd+000078
+1022337,2,open,,vrtscsi,stadi,madhusmita,111,FVLI-1VS-VSC:smit disk failed to change config of virtscsi disk
+1022255,1,canceled,other_s/w,rspcios,nstilwe,pradghos,4,FVLI-1VS-VSC:Crash @ pal_command_ks+000104
+1022239,1,closed,error,sysios,bfveale,lkambadu,8,FOCUS-FVLI-1BE-REG : system crash HTX legacy I/O and EEH inject
+1022164,2,returned,duplicate,sysxcflashblock,jpallen,lkambadu,79,FVLI-1BE-REG: CAPI SPIO failed with eeh inject
+1022140,2,open,,sysxnvme,hemanta,mukul,113,FVLI-1MY-DDD: I/O perf stat tools doesn't work for nvme
+1022137,2,open,,sysxnvme,hemanta,mukul,109,FVLI-1MY-DDD: devrsrv command doesn't work for nvme disks
+1022135,2,open,,sysxnvme,hemanta,mukul,109,FVLI-1MY-DDD: lsmpio doesn't work as expected for nvme disk
+1022050,1,returned,duplicate,pcimlxcent,vmansur,swetha,0,FVLI-1D0-VNC: VNIC server dead, while runing HTX+EEH+entstat -d
+1022048,1,canceled,unrecreatable,pcimlxcent,jmessing,swetha,21,FVLI-1D0-VNC: EEH permanent err while runing HTX+entstat -d+eeh
+1022043,2,working,error,ofed,jlhall,pdakappa,114,FVT_DEV:OFED needs to handle interface admin state
+1021990,1,canceled,duplicate,sysldr,vaslot,mukul,0,FVLI-1MY-DDD: Static breakpoint/KDB hit via unconfigure_device
+1021946,1,canceled,design,vrtscsi,stadi,madhusmita,23,FVLI-1VS-VSC:VM not able to ditect Boot disk after mirrorvg
+1021938,3,open,,sysxnvme,hemanta,mukul,115,FVLI-1MY-DDD: lsattr doesn't display nvme adap attr description
+1021921,1,canceled,hardware,sysxcflash,vbodduku,pradghos,8,HOT:FVLI-1BE-REG:IO failed after EEH with max context scenario
+1021854,2,canceled,,hsc_cim_provider,venupotluri,pgohil,12,FVLI-1D0-ACL:adding vnic with port_vlan_id attribut fails.
+1021769,2,returned,external_dup,vnic_server,xqin,akt,4,FVLI_1D0: vnicserver is sending FATAL err to vnic client driver
+1021768,2,canceled,,ioscli,ruchira,krupa,0,FVTR_DEV: Unable to connect to Database error in SSP BAT
+1021716,2,open,,sysxvio_lib,muma,krupa,120,FVT_DEV:cluster create not proper if system/user tier disk busy
+1021697,1,canceled,usage,Hypervisor.phyp,wolfrath,dittjose1,0,FOCUS:FVTR_DEV:lpm fails with error code HSCLA288 - PHYP abort
+1021605,1,canceled,limitation,vrtscsi,stadi,madhusmita,23,FVLI-1VS-VSC:Attaching live disk bring VM down
+1021602,2,closed,error,dascache,vamshikrishna,dittjose1,105,FVTR_DEV:max partitions shows unlimited for physical mode
+1021587,1,closed,error,rdmacore_v2,jmessing,vinkarne,79,FVTR_DEV:P9:System crash @rdmacore_detach_mcast with CX3 pro
+1021557,1,returned,vague,sriov_pf_screen.afwp,tmhoffma,swetha,1,FVLI-1D0-VNC: Boundry chck cond failing over vlan for jumbo 10G
+1021491,2,canceled,fixed,sysxvio_lib,veena,madhusmita,1,FVT_DEV:cluster create return extra error message
+1021423,1,open,,sysxinet_ipv6,jpvillam,dittjose1,125,FVT_DEV:AIX lpar crashed with 250 veth adapters added
+1021416,1,canceled,duplicate,bldscreen,aubertin,mukul,18,FVLI-1MY-DDD: NVMe devices not detected on daily build
+1021389,2,canceled,unrecreatable,sysxvio_mgrs_lpm,debn1,madhusmita,75,FVLI-161-SSP:after cluster restore encountered DB query failure
+1021387,2,canceled,design,sysxvio_mgrs_lpm,debn1,madhusmita,4,FVLI-161-SSP:primary lu map cleanup failed after viosbr -dr
+1021383,2,canceled,vague,htx_screen,preeti,dittjose1,4,FVTR_DEV:htx error after lpm with sspcaching
+1021375,1,canceled,unrecreatable,PF.afwp,jjalvare,pgohil,18,FVLI-1D0-VNC:LPA Dump generated for Firmware update failure
+1021374,1,canceled,other_s/w,PF.afwp,jimdonne,pgohil,40,FVLI-1D0-VNC:LPA dump generated Vf Manage pages failure
+1021344,1,canceled,vague,PF.afwp,jimdonne,pgohil,7,HOT:FVLI-1D0-SRIOV VNC:not able to add vnic adapter with 10G
+1021337,2,returned,usage,sysxdisk,rohit,pradghos,11,FVLI-1BE-REG:EEH and follwed lpar reboot - CAPI attach failed
+1021335,2,working,error,sysxentchan,minkim,swetha,126,FVLI-1D0-VNC:Entstat not displaying properly on etherchannel
+1021242,1,canceled,duplicate,sriov_pf_screen.afwp,jjalvare,pgohil,1,HOT:FVLI-1D0-VNC: P8bra-fsp CEC went into incomplete state
+1021239,1,canceled,unrecreatable,pcimlxcent,jmessing,swetha,15,FVLI-1D0-VNC:Ping fail,runing netop over vlan+ping -f over base
+1021187,2,working,error,sysxvio_daemon,mjmcelen,madhusmita,128,FOCUS:FVT_DEV:Requet autosnap for cache enable/disable failures
+1021148,2,canceled,design,kvm_screen,stadi,madhusmita,24,FVLI-1VS-VSC:cfgmgr failed to configure individual scsi adapter
+1021137,1,canceled,usage,sriov_pf_screen.afwp,tmhoffma,pgohil,0,HOT:FVLI-1D0-VNC:P8-apa CEC went into incomplete state
+1021136,1,canceled,unrecreatable,pcimlxcent,jmessing,swetha,16,FVLI-1D0-VNC:ping fail,running eeh+netop+ents -d over ether
+1021065,2,canceled,limitation,hsc_cim_provider,venupotluri,pgohil,16,FVLI-1D0-VNC: vnic creation fails  6553602.0 granularity
+1021064,2,returned,limitation,kvm_screen,stadi,pradghos,31,FVLI-1VS-VSC:disk attach failed - QEMU command 'device_add' err
+1021058,2,canceled,limitation,kvm_screen,stadi,madhusmita,31,FVLI-1VS-VSC:new disk add live failed
+1021053,1,open,,pool,janet,krupa,129,FOCUS:FVTR_DEV:crash @ txContext+000078
+1020979,1,open,,esw_phyp_screen,phypscrn,vinkarne,132,HOT:FVT_DEV:P9:zzfp252:CEC reboots with EEH on  network adapter
+1020977,1,closed,error,PF.afwp,jjalvare,pgohil,17,HOT:FVLI-1D0-VNC:system went into incomplete state
+1020934,1,closed,error,vnic,jcunning,swetha,87,FVBLKLI-1D0-VNC: VNIC Err, while runing ndd_r+entstat+ping
+1020891,1,canceled,duplicate,hsc_cim_provider,pywang,pgohil,1,HOT:FVLI-1D0-VNC:VNIC creation command hangs on hmc
+1020876,1,canceled,vague,sriov_pf_screen.afwp,jjalvare,swetha,1,HOT:FVLI-1D0-VNC:CEC went into incomplete state with interf up
+1020868,2,canceled,usage,entcore_v1,balt,sadmordi,0,FVT_DEV:P9: lsresource -l entX  giving error
+1020848,2,canceled,unrecreatable,dascache,vamshikrishna,dittjose1,0,FVT_DEV:cache_mgt doesnt work with su - padmin prefix.
+1020800,1,canceled,vague,sriov_pf_screen.afwp,ahsmirza,nnandula,1,FVLI-1D0-ACL:VF with native VLAN 1 and tagging 3
+1020795,1,verify,error,PF.afwp,csudhir,swetha,119,FVLI-1D0-ACL:VF with differnt PVID are pinging
+1020794,1,canceled,unrecreatable,sriov_pf_screen.afwp,ahsmirza,nnandula,3,HOT:FVLI-1D0-ACL:VF with all_allowed_macs &all_allow Fails ping
+1020769,1,returned,vague,pcimlxcent,vmansur,akt,0,FVLI-1DO-VNC:- adapter dead, while running HTX+ EEH+entstat -d
+1020690,1,closed,error,sysxsmcr,sgundura,kvaliapa,55,FVLI_81P:crash in smcr_destroy_clc_thread and in_pcbdetach
+1020684,1,canceled,fixed,rspcios,nstilwe,akt,0,HOT:FVLI-1D0-VNC : VIOS crashed while creating the vNIC adapter
+1020674,1,canceled,,entcore_v2,balt,akt,0,HOT:FVLI-1D0-VNC: VIOS hit crash brkpnt eeh_enable_handle+
+1020666,2,canceled,fixed,dascache,sangeek,dittjose1,70,FVLI-1J9-FVT:Node information wrong for one node.
+1020573,2,returned,design,kvm_screen,stadi,pradghos,32,FVLI-1VS-VSC:driver Q < nchan still adapter in available state.
+1020562,3,working,error,sysxvio_mgrs_lpm,debn1,krupa,136,FVT_DEV:No error msg for getSSP when pool disk is failed
+1020560,1,returned,other_s/w,kvm_screen,stadi,pradghos,7,FVLI-1VS-VSC:crash@do_compare+0002F8
+1020556,3,closed,error,sysxvio_lib,nmpramod,archangg,67,FVLI-1MY-VIOS:libtest vaidtn fails for PV ext query of NVMe
+1020527,1,canceled,unrecreatable,sysxsmcr,harikm,pdakappa,4,RECR:FVLI_81P:AIX crash while testing with netop when smcr is e
+1020526,1,closed,error,sysxsmcr,harikm,pdakappa,4,FVLI_81P:OS crash with abend_trap while executing netop
+1020525,1,closed,error,sysxsmcr,vmansur,pdakappa,30,HOT: FVLI_81P:AIX crash with smcr_xmit_mbuf while running neto
+1020524,1,returned,duplicate,sysxsmcr,sgundura,pdakappa,1,HOT:FVLI_81P:AIX crash with smcr_free_tx_wr whle exec netop
+1020443,1,canceled,vague,BusTransport.phyp,ramhazar,akt,13,FVLI-1D0-VNC: VNIC adapter is in defined state - why is the slo
+1020440,2,canceled,unrecreatable,pcimlxcent,jmessing,swetha,27,FVLI-1D0-VNC : natural eeh entry in VIOS
+1020367,1,canceled,usage,hmc_rmc_api,pritsin4,archangg,2,FVTR_DEV : migrlpar command hangs during validation
+1020355,1,canceled,limitation,sysxcflash,vbodduku,pradghos,8,FVLI-1BE-REG: CAPI Adapter went into bad state after EEH
+1020311,1,canceled,other_s/w,entcore_v2,jmessing,pgohil,0,HOT:FVLI-1D0-VNC: VIOS hit crash brkpnt at vndd_rx_comp+000AC8
+1020306,2,closed,error,sysxvio_lib,nmpramod,archangg,0,FVLI-1MY-VIOS:Delete event not logged for NVME adapter
+1020270,3,closed,error,sysxvio_lib,nmpramod,archangg,72,FVLI-1MY-VIOS : libtest validtn fails xsd2.00 for nvme add evnt
+1020263,2,canceled,limitation,sysxvio_mgrs_lpm,graneal,shiparam,0,FVLI-0P2-FVT:vioservice with passthru is failing after cltrl+c
+1020170,3,closed,error,sysxvio_lib,nmpramod,archangg,0,FVLI-1MY-VIOS : libtest validation fails for NVMePORT
+1020168,1,closed,error,sysxcflash,vbodduku,lkambadu,38,FVLI-1BE-REG : AIX system crash durning HTX I/O and EEH inject
+1020166,2,returned,other_s/w,kvm_screen,liema,pradghos,2,FVLI-1VS-VSC:VM start is failed with mpio configuration
+1020161,2,closed,error,sysxvio_lib,nmpramod,archangg,73,FVLI-1MY-VIOS : Incorrect value for phy vol size in base inv qu
+1020147,1,canceled,vague,htx_screen,kavinash,madhusmita,1,HOT:FVLI-1J9-FVT:htx error after pv remove operation
+1020134,1,closed,error,sysxsmcr,sgundura,pdakappa,9,FVLI_81P:AIX crash with bad IAR
+1020130,1,canceled,design,sysxvio_mgrs_lpm,debn1,madhusmita,1,FVLI-161-SSP:viosbr dr failed to restore cluster
+1020102,2,returned,vague,sriov_pf_screen.afwp,tmhoffma,swetha,0,FVLI-1D0:Adapter taking 30 mins to convrt from ded to sriov mod
+1020084,2,canceled,design,hsc_cim_provider,pywang,nnandula,1,FVLI-1D0:User must be restricted to create > max VF- p8apa-fsp
+1020058,1,closed,error,sysxsmcr,arunsp,pdakappa,10,FVLI_81P:entering static brkpoint while runing htx on 3 .
+1020052,2,closed,error,sysxvio_daemon,mjmcelen,madhusmita,63,FVLI-1J9-FVT:sspcache cmd not accessible from "padmin"
+1020045,2,closed,error,sysxsmcr,dimpu,pdakappa,71,FVLI_81P:rmdev command hang
+1020026,2,returned,unrecreatable,ca_screen,krmaurya,vinkarne,129,FVT_DEV:CF server crash  in client_history.h
+1020010,1,closed,error,sysxsmcr,dimpu,kvaliapa,4,HOT:FVLI_81P: crash in smcr_process_llc_test_link_req_offload
+1019976,2,returned,fixed,dascache,vamshikrishna,dittjose1,143,FVLI-1J9-FVT:status shows "Pending" for one node after lpm
+1019961,1,canceled,duplicate,pool,gjertsen,madhusmita,3,FVLI-1J9-FVT:clstartstop failing when sspcache is enable
+1019959,1,canceled,unrecreatable,dascache,vamshikrishna,madhusmita,4,RECR: FVLI-1J9-FVT:sspcache failing after pv remove operation  
+1019928,2,canceled,unrecreatable,rdmacore_v2,jmessing,pdakappa,17,FVT_DEV:RDMA resource busy reported on CX4 adapter
+1019922,1,canceled,duplicate,sysxvio_daemon,lakshmiy,madhusmita,3,FVLI-1J9-FVT:sspcache failed with DR Query error after RU
+1019918,2,open,,pool,jgmairet,krupa,146,FVT_DEV: chsp got hung when running SSP PM_BP
+1019907,1,canceled,duplicate,sysxsmcr,vmansur,pdakappa,0,FVLI_81P:crash while executing netop in RR duplex mode CX4
+1019906,1,closed,error,sysxsmcr,dimpu,kvaliapa,62,FVLI_81P:system hang in smcr_rm_device_trigger_del_link
+1019904,1,canceled,duplicate,sysxsmcr,vmansur,pdakappa,0,FVLI_81P:localhost crash while running netop on CX4
+1019889,1,canceled,duplicate,sysxsmcr,vmansur,kvaliapa,0,FVLI_81P:system crash in smcr_destroy_device
+1019886,1,canceled,duplicate,sysxsmcr,sgundura,pdakappa,0,FVLI_81P:IPV4/V6 Comm uses TCP when SMCR is enabled on CX
+1019849,2,returned,unrecreatable,sysxsmcr,arunsp,pdakappa,14,FOCUS:FVLI_81P:CX4 adapter ifconfig down detach cmd hang
+1019805,1,canceled,duplicate,PF.afwp,kulich,nnandula,0,HOT:FVLI-1D0:Dynamic VF addition fails
+1019797,1,canceled,duplicate,PF.afwp,kulich,nnandula,1,HOT:FVLI-1D0:LPAR doesnt reflect the VF configured in profile
+1019796,2,canceled,vague,sriov_pf_screen.afwp,tmhoffma,swetha,0,FVLI-1D0: Dynamic VF deletion fails after shutdown & activate
+1019795,3,open,,sysxnvme,hemanta,mukul,147,FVLI-1MY-DDD: typo error in errpt for eeh error description
+1019794,2,canceled,unrecreatable,pcimlxcent,jmessing,swetha,18,FVLI-1D0: Receiving jumbo packet with jumbo frames disabled
+1019793,2,open,,sysxnvme,hemanta,mukul,119,FVLI-1MY-DDD: disk size for nvme is reported incorrectly
+1019789,2,canceled,duplicate,rsct,ravikiran,krupa,0,FVTR_DEV:coredump after rebooting cluster nodes
+1019781,1,returned,vague,sysxsmcr,sgundura,pdakappa,4,HOT:FVLI_81P:IPv6 with CX4 always crash with tcp_output
+1019766,2,canceled,hardware,devscreen,scrnteam,madhusmita,0,FVLI-1J9-FVT:HTX error reported while performing pv remove
+1019758,2,canceled,duplicate,sysxsmcr,sgundura,pdakappa,1,FVLI_81P:ftp connection reset with peer on CX4 adapter
+1019757,1,closed,error,sysxsmcr,dimpu,kvaliapa,1,HOT:FVLI_81P: system crash in smcr_free_rmb_pool_timer_init
+1019726,2,closed,error,sysxsmcr,jlhall,pdakappa,76,SMCR can't be uninstalled if SMCR device definition is removed
+1019713,1,closed,error,sysxsmcr,vmansur,kvaliapa,8,FVLI_81P:system crash in smcr_packet_trace
+1019682,1,closed,error,pool,ninad,madhusmita,6,FVLI-1J9-FVT:Pool hang while performing failgrp remove
+1019673,2,open,,pool,gjertsen,krupa,148,FOCUS:FVTR_DEV:cluster -list got hung in SSP PM_BP tests
+1019670,1,canceled,hardware,fcscreen,chandu,krupa,23,FVLI-161-V2: getlsi/getadapter failed for NPIV
+1019654,1,canceled,duplicate,sysxsmcr,arunsp,kvaliapa,0,FVLI_81P:system crash in query_matching_roce_device
+1019608,1,closed,error,rdmacore_v2,jmessing,pdakappa,80,FVLI_81P:AIX crash while installing ofed fielsets
+1019590,1,closed,error,sysxsmcr,vmansur,pdakappa,9,FVLI_81P:host became unreachable while configuring htx
+1019572,1,canceled,fixed,pool,gjertsen,madhusmita,0,FOCUS:FVLI-1J9-FVT:system crash@ioPGMapIterAction+000240
+1019561,1,closed,error,sysxsmcr,arunsp,kvaliapa,7,FVLI_81P:data communication not happening via smcr forIPv6
+1019547,1,closed,error,sysxvio_mgrs_lpm,debn1,madhusmita,13,FVLI-161-SSP:cluster restore failed with DB error
+1019532,2,open,,vrtscsi,stadi,pradghos,149,FVLI-1VS-VSC: smitty disk throwing error for virtSCSI disk
+1019529,1,canceled,duplicate,sysxsmcr,arunsp,kvaliapa,0,HOT:FVLI_81P: system crash in  smcr_destroy_clc_thread
+1019525,1,closed,error,sysxnvme,hemanta,mukul,21,FVLI-1MY-VIOS: Hang in disk cmds - mkvg/lspv -free/bootinfo -s
+1019524,2,open,,pool,gjertsen,madhusmita,149,FVLI-1J9-FVT:HTX error occure when caching was enable for pool
+1019521,2,verify,enhancement,vrtscsi,stadi,pradghos,55,FVLI-1VS-VSC:Smitty showing redundant option for vrtSCSI
+1019518,2,closed,error,vrtscsi,stadi,pradghos,134,FVLI-1VS-VSC: ODM PdCn values are missing for virtSCSI
+1019511,1,canceled,fixed,vrtent,jcunning,lkambadu,6,FVLI-1VS_NIC: IPV6 VLAN interface fails to ping
+1019508,3,canceled,other_s/w,sysxvio_mgrs_lpm,trupesh,krupa,1,FVLI-161-SSP:getLSI err msg not proper for multiple client IDs
+1019507,1,canceled,duplicate,PF.afwp,karkastu,pgohil,1,HOT:FVLI-1D0:adding VF failes from PF 1 - LPADUMPs seen
+1019504,2,returned,design,vrtent,jcunning,lkambadu,6,FVLI-1VS_NIC: Ambiguous display of MTU value ' netstat -I en1'
+1019494,1,closed,error,sysxvio_mgrs_lpm,debn1,madhusmita,13,FVLI-161-SSP:viobr dr failed to restore cluster
+1019402,1,canceled,duplicate,sriov_pf_screen.afwp,tmhoffma,pgohil,0,HOT:FVLI-1D0:adding VF fails aft max_eth_logical_port chg
+1019400,1,canceled,unrecreatable,PF.afwp,jjalvare,pgohil,7,HOT:FVLI-1D0:CEC went into incomplete when max_eth_logical_port
+1019356,1,canceled,unrecreatable,sysxvio_daemon,mjmcelen,madhusmita,12,RECR: FVLI-1J9-FVT:sspcache disable failed after pv remove op  
+1019273,1,canceled,duplicate,sysxlvm,lakshmiy,madhusmita,3,FVLI-1J9-FVT:sspcache failed to enable after cluster rest
+1019268,2,closed,enhancement,PF.afwp,karkastu,pgohil,19,FVLI-1D0:Default configuration for SRIOV should be 2
+1019265,2,returned,limitation,kvm_screen,stadi,pradghos,56,FVLI-1VS-VSC:Disk still in "Available" after detach online
+1019261,2,canceled,fixed,ioscli,arun392,mukul,20,FVLI-1MY-VIOS: lspv -size not working for nvme
+1019259,1,returned,limitation,kvm_screen,stadi,pradghos,49,FVLI-1VS-VSC:online attach and detach of scsi adapter is failed
+1019256,3,verify,error,ioscli,arun392,mukul,133,FVLI-1MY-VIOS: mkvg on nvme disk attempts incorrect mkdev
+1019251,1,returned,limitation,kvm_screen,nstilwe,pradghos,31,FVLI-1VS-VSC:VM went into not respnding state after snap-revert
+1019248,1,working,error,sysxvio_mgrs_lpm,debn1,madhusmita,153,FVT_DEV: viosbr backup failed
+1019177,1,canceled,fixed,pcimlxcent,balt,pgohil,3,FVLI-1D0: initializing VF fails in OS
+1019148,1,closed,investigate,PF.afwp,kulich,nnandula,21,HOT:FVLI-1D0:SRIOV:512MB BAR - Adapter initialization fails wit
+1019142,1,canceled,,sriov_pf_screen.afwp,tmhoffma,nnandula,0,HOT:FVLI-1D0:CEC in incomplete st after shutdown-actiavte LPAR
+1019141,1,canceled,fixed,pcimlxcent,jmessing,sadmordi,1,FVLI-1D0-VNC: IP configuration is failing on vNIC
+1019136,1,canceled,,sriov_pf_screen.afwp,tmhoffma,nnandula,0,FVLI-1D0: VF deletion fails with FW OP extn error
+1019127,3,canceled,unrecreatable,sysxvio_mgrs_lpm,ruchira,krupa,61,FVLI-161-V2: putLSI with 3.00 did not fail for hitachi
+1019078,1,closed,error,sysxvio_daemon,mjmcelen,madhusmita,21, FVLI-1J9-FVT:sspcache failed to enabled after RU
+1019020,1,canceled,usage,hdw_everglades,restrad,akt,1,HOT:FVLI-1D0-EG VF not listed w/t AdapFirwar w/t FCODE support
+1018991,1,canceled,duplicate,devscreen,scrnteam,archangg,0,FVLI-1MY-VIOS:System crash during rmdev of vscsi adapter
+1018970,1,closed,error,pool,ninad,madhusmita,1,FVLI-1J9-FVT:system crash@dcSubmitDiskCacheIO+000460
+1018860,1,closed,error,pool,dcmcdoug,krupa,57,FVTR_DEV:crash @ dpLogSetPGsState+0001BC
+1018819,1,closed,error,PF.afwp,ddesaval,swetha,6,HOT:FVLI-1D0- Failed to initialize adapter in SRIOV Mode.
+1018698,2,closed,error,sysxvio_mgrs_lpm,debn1,krupa,72,FVLI-161-SSP:getSSP call failed with valid cluster ID
+1018676,3,verify,error,sysxvio_daemon,mjmcelen,dittjose1,141,FVLI-1J9-FVT:wrong spelling for word resize in output
+1018675,1,canceled,,sriov_pf_screen.afwp,tmhoffma,pgohil,2,FVLI-1D0-VNC:VNIC creation command getting hang
+1018670,1,canceled,duplicate,pcimlxcent,balt,akt,2,FVLI-1D0: No smit support for VF
+1018519,1,closed,error,sysxsmcr,arunsp,pdakappa,11,HOT:FVLI_81P:entering static brkpoint while runing htx on 3 hts
+1018497,1,working,error,ca_screen,krmaurya,vinkarne,160,61ps117A build break, version pattern wrong for 61ps117<A>
+1018423,2,canceled,fixed,sriov_pf_screen.afwp,csudhir,pgohil,21,FVLI-1D0:ACL:MAC ACL does not work as expected for 10G CX4
+1018380,2,returned,vague,sriov_pf_screen.afwp,ahsmirza,pgohil,6,FOCUS:FVLI-1D0: unicast promiscous mode does not work on VF
+1018343,2,canceled,usage,sysxvio_mgrs_lpm,graneal,shiparam,0,FVLI-0P2-FVT:minisnap* dirs are not present in pax.Z(passI.xml)
+1018341,1,closed,error,pcimlxcent,jmessing,sadmordi,40,FVLI-1D0-VNC : MTU boundary check on VLAN  is failing
+1018339,2,canceled,usage,sysxvio_mgrs_lpm,graneal,shiparam,0,FVLI-0P2-FVT: minisnap* dirs are not present in pax.Z(pass.xml)
+1018325,1,canceled,unrecreatable,syslfs,balbot,madhusmita,4,FVLI-1J9-FVT:system crash@aha_process_vnop+0001FC
+1018237,2,open,,pool,jgmairet,krupa,162,RECR: FVTR_DEV:failgrp -create hang when running PM BP in SSP  
+1018219,1,working,error,ca_screen,krmaurya,vinkarne,162,Fix 61ps117A build breakage
+1018217,2,closed,error,sysxvio_mgrs_lpm,graneal,shiparam,78,FVLI-0P2-FVT:svCollect/lpm directory is not removed from .pax.Z
+1018215,2,canceled,,pool,jgmairet,krupa,100,FVTR_DEV: failgrp -remove got hung when running pv remove tests
+1018201,1,canceled,fixed,vrtent,jcunning,lkambadu,19,FVLI-1VS_NIC: HTX I/O fails with dead error state on Virtio NIC
+1018095,1,canceled,duplicate,sysxsmcr,sgundura,pdakappa,13,FVLI_81P:95+/100 connections fails back to TCP on CX4
+1018092,1,closed,error,sysxsmcr,jlhall,kvaliapa,19,FVLI_81P:system crash in tcp_output
+1018090,1,working,error,ca_fvt,vinkarne,vinkarne,163,Fix 61ps117A build failure
+1018088,1,closed,error,pcimlxcent,vmansur,pdakappa,91,FVLI_81P:connection reset by peer with netop on CX4
+1018084,1,returned,duplicate,devscreen,scrnteam,kvaliapa,0,FVLI_81P: system crash in clock+000244
+1018078,1,closed,error,sysxsmcr,dimpu,pdakappa,23,FVLI_81P:smcr peers become unreachable with htx test on CX4
+1018057,1,closed,error,sysxsmcr,dimpu,kvaliapa,22,FVLI_81P: system crash in smcr_add_device_trigger_add_link
+1018049,2,canceled,duplicate,sysxvio_daemon,mjmcelen,dittjose1,30,RECR: FVLI-1J9-FVT:sspcache -status shows no info for vio_daemo
+1018024,1,canceled,duplicate,sysxsmcr,dimpu,pdakappa,0,FVLI_81P:OS crash while executing htx on CX4 at lock_free_comm
+1017960,1,canceled,design,sysxvio_vscsi,mikecyr,dittjose1,14,FVLI-1J9-FVT:lpm fails with sspcaching enabled.
+1017865,2,canceled,unrecreatable,sysxvio_daemon,mjmcelen,madhusmita,21,RECR: FVLI-1J9-FVT:ssspcache -resize not updatig LV size for on
+1017831,2,canceled,vague,Bluefish,shawnw7,nnandula,68,FVLI-16P:Fw:systemdump hung;DA;BLuefish-flash
+1017830,3,returned,duplicate,dascache,vamshikrishna,dittjose1,161,FVT_DEV: partition create shows wrong message with MB as unit
+1017828,1,closed,error,pool,gjertsen,madhusmita,28, FVLI-1J9-FVT:system crash@prGetPoolRoot+0002F8
+1017820,3,canceled,duplicate,htx_screen,kavinash,pgohil,5,FVLI-1D0: device b31516101f06 of type CX4 VF need to be added
+1017812,2,open,,fcscreen,chandu,nnandula,167,FVLI-16P:Paths in defined st.DA-Bluefish; HTX+EEH
+1017804,1,canceled,duplicate,sysxsmcr,arunsp,pdakappa,3,FVLI_81P:LPAR unreachable after executing eeh_tool on CX4
+1017740,1,closed,drop,dascache,sangeek,dittjose1,14,FVLI-1J9-FVT:status shows no nodes are currently caching.
+1017738,1,closed,error,sysxsmcr,harikm,pdakappa,28,FVLI_81P:crash while running HTX on CX4 @ smcr_smrg_offload
+1017733,2,closed,error,sysxvio_mgrs_lpm,graneal,shiparam,84,FVLI-0P2-FVT:ssp_ffdc files are not copied to svCollect/ioslogs
+1017660,1,canceled,vague,sriov_pf_screen.afwp,tmhoffma,pgohil,0,FVLI-1D0:MS went into incomplete state when SRIOV VF remove
+1017658,1,closed,error,sysxsmcr,dimpu,kvaliapa,26,FVLI_81P:system hang in smcr_wait_llc_del_link_client
+1017657,2,canceled,vague,pcimlxcent,jmessing,akt,19,FVLI-1D0-VNC :Observed vNIC Error CQR while running mcast test
+1017630,2,working,error,sysxvio_daemon,mjmcelen,madhusmita,168,FVLI-1J9-FVT:cluster delete failed to remove sspcache partition
+1017621,1,returned,duplicate,sysxsmcr,arunsp,pdakappa,25,HOT:FVLI_81P:host not reachable via network or console
+1017522,1,returned,usage,devscreen,scrnteam,pdakappa,0,HOT:FVT_DEV:Failed to boot post reboot with net_malloc_police
+1017521,1,canceled,duplicate,sysuipc,jlhall,kvaliapa,1,FVLI_81P:system crash in net_malloc_cpu
+1017497,1,canceled,,sysxsmcr,arunsp,pdakappa,0,HOT:FVLI_81P:CX2 adapter is not using SMCR
+1017490,2,canceled,duplicate,sysxvio_daemon,mjmcelen,dittjose1,0,FVLI-1J9-FVT:Node information not coming for one node.
+1017470,2,open,,sysdump,kokdeuri,pdakappa,169,FVT_DEV:Faied to take dump
+1017467,1,closed,error,sysxsmcr,harikm,kvaliapa,5,FVLI_81P:re-verify valid SMCR protocol before TCP connect
+1017460,1,returned,fixed,sysxsmcr,harikm,pdakappa,26,RECR: FVLI_81P:OS crash on CX4 host with stack mclbGet         
+1017428,1,closed,error,sysxsmcr,vmansur,kvaliapa,7,FVLI_81P:system hang in smcr_lg_ln_so_lock
+1017427,1,canceled,vague,sriov_pf_screen.afwp,jjalvare,swetha,6,FVLI-1D0-VNC:vNIC pair creation on port 1 of glacier park hangs
+1017425,1,closed,error,sysxsmcr,dimpu,kvaliapa,28,FVLI_81P:system crash while testing failover
+1017371,2,working,error,sysxvio_mgrs_lpm,debn1,shiparam,170,FVLI-0P2-FVT:Auto-Cleanup of .pax.Z file is not happening
+1017366,3,canceled,usage,sysxsmcr,dimpu,pdakappa,0,FVLI_81P:Peerid format is not as per the design
+1017363,1,canceled,vague,pool,ninad,madhusmita,0,FVLI-1J9-FVT:clstartstop start not able to start cluster servic
+1017360,2,open,,dascache,vamshikrishna,dittjose1,170,FVT_DEV:Cachedisk doesnt get created after Remote Restart
+1017244,1,canceled,unrecreatable,rdmacore_v2,jmessing,vinkarne,16,FOCUS:FVTR_DEV:System crash observed @udoorbell_destroy
+1017237,1,closed,error,pool,ninad,dittjose1,7,FVLI-1J9-FVT:system  crash @ cmCacheObjRefInternal+000274
+1017234,2,verify,error,vnic,jcunning,swetha,114,FVBLKLI-1D0-VNC: mcast & bcast not getting updated in entstat
+1017220,2,open,,Bluefish,shawnw7,nnandula,171,FVLI-16P: POST during config fail;Bluefish
+1017218,3,open,,sysxsmcr,arunsp,pdakappa,171,FVLI_81P:netstat -o is not providing results as per design doc
+1017216,1,canceled,unrecreatable,hdw_everglades,restrad,pgohil,22,HOT:FVLI-1D0:10G CX4 adapter initialization fails
+1017189,1,closed,error,sysxsmcr,sgundura,kvaliapa,29,FVLI_81P:system hang in smcr_move_qp_to_error_state
+1017186,1,canceled,usage,sysxsmcr,dimpu,pdakappa,1,FVLI_81P:OS hang in process smcr_smrg_offload_receive_wq
+1017171,2,returned,limitation,sysxsmcr,jlhall,pdakappa,33,FVLI_81P:ofed uninstall fails after configuring IP on roce intf
+1017137,1,closed,error,sysxsmcr,dimpu,kvaliapa,32,FVLI_81P: system crash in smcr_peerID_init
+1017106,2,returned,hardware,pcimlxent,shouchun,pdakappa,0,FVT_DEV:unable to enable rdma on CX2 adapter
+1017098,1,returned,fixed,sysxsmcr,dimpu,kvaliapa,0,FVLI_81P: system crash in smcr_add_device_trigger_add_link
+1017095,1,canceled,,hmc_screen,hmcscrn,dittjose1,0,FVLI-1J9-FVT:Remote Restart fails.
+1017091,1,returned,fixed,sysxsmcr,dimpu,kvaliapa,0,FVLI_81P: system hang in smcr_wait_llc_del_link
+1017078,2,open,,pcimlxcent,balt,swetha,174,FVLI-1D0:EID observed while runing netop + entstat in parallel
+1017077,1,closed,error,sysios,bfveale,lkambadu,62,FVLI-1BE-REG : system crash HTX legacy I/O  and EEH injection
+1017071,1,returned,fixed,sysxsmcr,harikm,pdakappa,31,HOT:FVLI_81P:OS hang while installing ofed parallel to ifconfig
+1017070,2,canceled,,sysxsmcr,dimpu,pdakappa,31,FVLI_81P:rmdev command hang while unloading smcr
+1017056,1,closed,error,sysxbpf,jlhall,pdakappa,34,FVLI_81P:OS hang in process smcr_comm_wq
+1017002,1,closed,error,pool,gjertsen,madhusmita,21,FVLI-1J9-FVT:sspcache status showing no info for DB error
+1016954,1,closed,error,pool,ninad,dittjose1,7,FVLI-1J9-FVT:pool commands are hung after few scenarios.
+1016953,2,closed,error,pool,ninad,dittjose1,11,FVLI-1J9-FVT:sspcache status shows "indeterminable reason" erro
+1016903,1,closed,error,PF.afwp,ddesaval,swetha,26,FVLI-1D0:Adjunct wont boot as Max VFs in config space too small
+1016867,1,canceled,unrecreatable,pool,gjertsen,madhusmita,20,FOCUS:FVLI-1J9-FVT:cluster services hang while sspcache enable
+1016862,2,open,,cmdcfg,gruzek,dittjose1,176,FVLI-1J9-FVT:sspcache status o/p is not proper after disable
+1016858,1,verify,error,dascache,vamshikrishna,dittjose1,140,FVLI-1J9-FVT:lpm fails with sspcache enbl and disbl in pr
+1016851,1,canceled,duplicate,pool,gjertsen,krupa,19,FVT_DEV:crash @ha_critical_halt_system on removing  cluster
+1016849,2,canceled,,devscreen,scrnteam,pdakappa,0,FVT_DEV:delayed INTS logged by errpt while running HTX on CX4
+1016848,2,open,,pmapi,ravsomas,pdakappa,176,FVT_DEV:delayed INTS logged by errpt while running HTX on CX4
+1016844,1,closed,error,sysxvio_daemon,mjmcelen,madhusmita,27,FVLI-1J9-FVT:sspcache enable failed on a fresh cluster
+1016829,1,canceled,,devscreen,scrnteam,pdakappa,0,FVT_DEV:build installation hang with LED 0607
+1016826,1,canceled,duplicate,pool,ninad,madhusmita,5,FVLI-1J9-FVT:cluster remove fail after sspcache disable
+1016762,2,closed,error,sysxvio_mgrs_lpm,debn1,krupa,92,FVLI-161-SSP:getLSI/getSSP o/p xml libtest validation failed
+1016760,1,canceled,hardware,PF.afwp,jjalvare,swetha,45,FVLI-1D0-VNC: CEC went into incomplete state
+1016740,2,returned,fixed,kvm_screen,stadi,pradghos,73,FVLI-1VS-VSC:Adapter in defined state afte nchan value change
+1016736,1,canceled,vague,devscreen,scrnteam,madhusmita,1,FVLI-1J9-FVT:client hit HTX error after pv remove operation
+1016715,1,canceled,duplicate,sysxsmcr,arunsp,kvaliapa,0,FVLI_81P:system crash while saving dump
+1016706,1,closed,error,ofed,jlhall,kvaliapa,93,FVT_DEV:system crash while enabling MODS and reboot
+1016697,2,open,,sysxsmcr,dimpu,pdakappa,175,FVLI_81P:New link is not getting created after cable pull
+1016648,1,returned,fixed,sysxsmcr,jlhall,pdakappa,1,HOT:FVLI_81P: DSI in tcp_output+003250
+1016590,2,open,,kvm_screen,stadi,pradghos,178,FVLI-1VS-VSC:Adap went to defined state - pci addr_new bus no
+1016579,1,returned,unrecreatable,sysxsmcr,sgundura,kvaliapa,35,RECR:FVLI_81P:system crash in smcr_rx_irq
+1016562,2,returned,usage,fcscreen,chandu,nnandula,89,FVLI-16P:Intermittent open failure of the fcs
+1016555,2,canceled,unrecreatable,dascache,vamshikrishna,dittjose1,134,FVLI-1J9-FVT:pfcras output Hit Rate for 60 secs is 0 .
+1016379,1,canceled,duplicate,sysxsmcr,arunsp,pdakappa,4,FVLI_81P:ifconfig down detach not returning to prompt
+1016315,1,canceled,duplicate,PF.afwp,kulich,akt,0,FVLI-1D0:HOT:SRIOV adjunct failing to initi aft firmware update
+1016313,1,closed,investigate,PF.afwp,joncfouk,akt,9,HOT:FVLI-1D0:-VF Deconfig Failure on AFW Build b170206a.afw868
+1016305,2,closed,error,pcimlxcent,balt,nnandula,103,Change EEH reset type from fundamental_hot to just hot
+1016300,1,closed,error,PF.afwp,nuvenkat,pgohil,9,HOT:FVLI-1D0:adaptr stuck initializing state wn SRIOV enabled
+1016295,2,canceled,usage,pool,ninad,dittjose1,5,FVLI-1J9-FVT:htx error occurs after few enable and disable cach
+1016263,2,returned,vague,pcimlxcent,shouchun,pgohil,105,FVLI-1AT: RDMA test kernel_ofed_rdma_qp_create_1 Failing
+1016255,1,returned,fixed,sysxsmcr,arunsp,kvaliapa,0,FVLI_81P:system crash while tesing failover in smcr_process_cdc
+1016246,1,closed,error,sysxsmcr,dimpu,pdakappa,41,FVLI_81P:AIX crash while testing failover
+1016243,2,verify,enhancement,kvm_screen,stadi,pradghos,85,FVLI-1VS-VSC: multiple scsi adap in defined state after attach
+1016236,1,closed,error,sysxsmcr,sgundura,pdakappa,41,FVLI_81P:AIX crash while bring down intf during file transfer
+1016226,2,canceled,unrecreatable,sysxvio_mgrs_lpm,debn1,madhusmita,27,FVLI-161-SSP:cluster ID for getLSI and getSSP show extra string
+1016207,1,canceled,design,sysxvio_daemon,mjmcelen,madhusmita,0,FVLI-1J9-FVT:sspcache enable fail with proper cache pool size
+1016146,2,closed,error,dascache,vamshikrishna,madhusmita,35,FVLI-1J9-FVT:pfcras still contain cache info after Tier remove
+1016109,1,closed,error,pool,ninad,madhusmita,16,FVLI-1J9-FVT:pool hang while performing Tier remove operation
+1016106,2,open,,pool,dcmcdoug,krupa,184,FVT_DEV: fs remove got hung when running vnop_mkdir
+1016101,1,canceled,unrecreatable,pool,ninad,dittjose1,0,FVLI-1J9-FVT:system crash @ logCommandUpdateCommon+000088
+1016089,2,canceled,duplicate,pool,dcmcdoug,krupa,6,FVT_DEV:pool make hung after pool remove failed
+1016085,1,closed,error,sysxsmcr,sgundura,kvaliapa,21,FVLI_81P: system crash in smcr_recv
+1016084,1,canceled,usage,sysxvio_vscsi,mikecyr,madhusmita,1,FVLI-161-SSP:system crash@kcluster_sendmsg_ext+000180
+1016081,1,canceled,duplicate,sysxsmcr,sgundura,pdakappa,0,FVLI_81P:OS crash when links created b/w 3 hosts & unload smcr
+1016048,1,closed,error,pool,ninad,dittjose1,1,FVLI-1J9-FVT:system crashed@dwSchedulePGECCRecovery+00030C
+1016001,1,canceled,usage,pool,ninad,madhusmita,0,FVLI-1J9-FVT:pool hang after failgrp create on sspcache for pol
+1015999,2,open,,everglades,restrad,akt,185,FVLI-1AV:VPD file is missing for everglades adapter
+1015984,1,canceled,unrecreatable,pcimlxcent,balt,pgohil,8,FVLI-1AT: Adapter initialization fails with mkdev cfgmgr
+1015971,1,canceled,limitation,pcimlxcent,balt,swetha,0,FVLI-1D0-ACL:Ping failing on VF with allowed mac & allowed vlan
+1015969,2,canceled,,sysxsmcr,arunsp,pdakappa,0,FVLI_81P:CLC exchange seen though server port not in port_range
+1015941,1,closed,error,pool,ninad,dittjose1,19,FVLI-1J9-FVT:system crash @ ioFinishECCValidationIO+000520
+1015938,1,closed,error,pool,ninad,madhusmita,3,FVLI-1J9-FVT:system crash@dcRangeSetCached+0014A0
+1015936,3,open,,sysxsmcr,dimpu,pdakappa,187,FVLI_81P:Stale peerids are not getting removed
+1015901,1,closed,error,sysxsmcr,arunsp,kvaliapa,25,FVLI_81P: system crash in recv_smcr_clc_confirm
+1015889,1,closed,error,pcimlxent,shouchun,pdakappa,45,FVLI_81P:OS hang while creating link group smcr_LG_lookup
+1015886,1,canceled,duplicate,sysxsmcr,sgundura,kvaliapa,3,FVLI_81P: system crash while unloading smcr
+1015864,1,canceled,usage,sysxvio_daemon,lakshmiy,madhusmita,0,FOCUS:FVLI-1J9-FVT:sspcache status showing pending for Pool
+1015860,2,canceled,duplicate,sysxsmcr,arunsp,pdakappa,3,FVLI_81P:Conn using SMCR when no IP mentioned in ip_addr_range
+1015852,1,closed,error,pool,gjertsen,krupa,0,FVT_DEV: crash@dcTierCheckRemoteDiskCache+0002FC
+1015839,2,canceled,vague,pool,ninad,madhusmita,0,FVLI-1J9-FVT:sspcache disable takes long tm than expected
+1015809,3,canceled,usage,caascreen,gip,dittjose1,0,FVLI-1J9-FVT:clsstartstop command fails after Rolling Upgrade.
+1015807,1,closed,error,pool,ninad,dittjose1,1,FVLI-1J9-FVT:system crashed @ dwProcessPendingTask+00057C
+1015786,1,closed,error,sysxsmcr,sgundura,kvaliapa,25,FVLI_81P: system crash after running netop and reboot
+1015771,1,closed,error,sysxvio_daemon,lakshmiy,dittjose1,56,FVLI-1J9-FVT:sspcache command fails after rolling upgrade
+1015763,2,canceled,usage,pcimlxcent,balt,pgohil,0,FVLI-1AT: Promiscuous mode is disable when basic_devices_1 rdma
+1015762,2,canceled,duplicate,sysxvio_daemon,mjmcelen,krupa,18,FVTR_DEV:cluster creation failed
+1015730,2,canceled,duplicate,pool,dcmcdoug,krupa,8,FVTR_DEV:pv -add hung when running SSP BAT
+1015668,2,returned,unrecreatable,pcimlxcent,shouchun,akt,2,FVLI-1AV:kernel_ofed_ib_misc_5 test  is hanging
+1015653,1,canceled,limitation,vrtcore,pvtorres,pradghos,105,FVLI-1VS-VSC: Crash @ vrtcore_queue_alloc+00111C
+1015647,1,closed,error,dascache,vamshikrishna,madhusmita,41,FVLI-1J9-FVT:system crash @dcStopDiskCacheForOneTier
+1015637,2,closed,error,sysxsmcr,sgundura,pdakappa,48,FVLI_81P:ftp app intermittently recieves CLC mess and terminate
+1015636,1,canceled,duplicate,sysxvio_vscsi,mikecyr,dittjose1,5,FVLI-1J9-FVT:LPM fails from Version6 VIO to Version5 VIOS
+1015634,1,canceled,hardware,pcimlxcent,jmessing,pgohil,1,FVLI-1AT: ofed basic ibv test are failing with jumbo_frame
+1015622,1,closed,error,pool,ninad,madhusmita,2,FVLI-1J9-FVT:pool hang after sspcahe op in Tier in seq
+1015556,2,returned,usage,pcimlxcent,shouchun,akt,113,FVLI-1AV: kernel_ofed_ib_ah_modify_1 test failed
+1015530,1,canceled,duplicate,sysxvio_npiv,mikecyr,dittjose1,3,FVLI-1J9-FVT:lpm fails and vios crashes@abend_trap+000000
+1015516,1,canceled,unrecreatable,pool,gjertsen,madhusmita,34,RECR:FVLI-1J9-FVT:clstartstop fail to stop DBN node
+1015513,2,closed,error,sysxvio_daemon,mjmcelen,dittjose1,58,FVLI-1J9-FVT:sspcache cmnd dsnt show proper o/p in mix mode clu
+1015510,2,canceled,design,pcimlxcent,balt,swetha,0,FVLI-1D0:entstat not showing all the queues which are enabled
+1015509,1,returned,unrecreatable,sysnet_netm,davemarq,pdakappa,15,RECR: FVT_DEV:console hang while rebooting                     
+1015503,1,closed,error,ofed,jlhall,kvaliapa,15,FVT_DEV: OFED cma needs to use atomic memory allocation
+1015497,1,canceled,usage,sysxvio_daemon,lakshmiy,madhusmita,0,FOCUS:FVLI-1J9-FVT:sspcache enable failed for on cluster node
+1015416,1,working,error,sysxvio_npiv,mikecyr,shiparam,192,FVLI-0P2-FVT:system crash @abend_trap+000000 ()
+1015412,2,closed,error,dascache,sangeek,madhusmita,43,FVLI-1J9-FVT:sspcache fail to provide error for cacheDisk fail
+1015395,2,closed,error,sysxvio_daemon,lakshmiy,madhusmita,43,FVLI-1J9-FVT:sspcache should enable for comingled SYSTEM tier
+1015373,2,returned,unrecreatable,sysxsmcr,arunsp,kvaliapa,3,FVLI_81P: netop rr test fails with error
+1015365,2,canceled,unrecreatable,sysxsmcr,sgundura,kvaliapa,2,FVLI_81P: ftp hang after reboot and load smcr
+1015364,2,closed,error,pcimlxcent,balt,swetha,136,FVLI-1D0: rx_hash ODM default set to xor instead of toeplitz
+1015355,2,canceled,usage,pcimlxcent,balt,swetha,2,FVLI-1D0: Not able to take component tarces at sys trace mode
+1015354,1,closed,error,PF.afwp,jjalvare,swetha,9,FVLI-1D0: Ping failing after setting speed at PF level
+1015319,1,closed,error,sysnet_route,davemarq,pdakappa,53,FVLI_81P:OS crash while creating new LG after deleting 2 LGs
+1015314,2,returned,risk,ofed,jlhall,akt,59,FVLI-1AV:SW program error while exe basic_rdma_comm_getrecvcomp
+1015313,1,closed,error,pool,ninad,dittjose1,4,FVLI-1J9-FVT:system crash @osMutexRelease+00002C
+1015298,2,canceled,fixed,sysxvio_daemon,mjmcelen,madhusmita,7,FVLI-1J9-FVT:sspcache status showing inconsistence result
+1015297,1,canceled,unrecreatable,pool,ninad,madhusmita,42,RECR: FVLI-1J9-FVT:system crash@dcRangeSetProtected+001DD4     
+1015279,2,canceled,duplicate,sysxsmcr,dimpu,pdakappa,7,FVLI_81P:new LG is not created though peers are out of sync
+1015276,1,closed,error,dascache,sangeek,dittjose1,29,FVLI-1J9-FVT:Cleanup issue with viosbr -restore of cache partit
+1015275,1,canceled,hardware,devscreen,scrnteam,pgohil,1,HOT:FVLI-1AT:adapter initialization failes
+1015274,1,closed,error,pool,ninad,dittjose1,4,FVLI-1J9-FVT:system crash @dcRangeVerifyOp+000558
+1015271,1,canceled,fixed,sysxvio_daemon,lakshmiy,madhusmita,0,FOCUS:FVLI-1J9-FVT:sspcahe disable fail aftrer new DBN elected
+1015173,1,returned,hardware,pcimlxcent,shouchun,akt,0,FVLI-1AV:HOT: packet >2386 r getting drop with Jumbo enabled
+1015162,1,canceled,unrecreatable,sysxvio_daemon,mjmcelen,madhusmita,27,RECR: FVLI-1J9-FVT:DBN election failed after poold stop on DBN 
+1015153,2,returned,design,pcimlxcent,balt,akt,113,FVLI-1AV: SW error observed while running EEH + nddctrl -r
+1015151,2,open,,fcscreen,chandu,nnandula,197,FVLI-16P:Path failed st. Bluefish,DS8k, Direct Att,Multi LD
+1015128,2,closed,error,dascache,vamshikrishna,madhusmita,48,FVLI-1J9-FVT: ssp cache failed to enable after poold restart
+1015120,1,canceled,,hmc_screen,hmcscrn,swetha,0,FVLI-1D0: Not able to create VF with capacity more than 2
+1015115,2,returned,limitation,pcimlxcent,balt,pgohil,113,FVLI-1AV:software error for adapter logged in errpt
+1015111,1,returned,other_s/w,devscreen,scrnteam,pdakappa,0,FVT_DEV:OS hang when looping smcr load/unload from screen
+1015108,2,open,,tcptimer,dimpu,pdakappa,197,FVT_DEV:deaf beef is seen in Time protocol request
+1015097,1,canceled,duplicate,sysxsmcr,dimpu,kvaliapa,0,FVLI_81P: system crash in smcr_same_link_remote_rkey
+1015091,1,closed,error,sysxsmcr,sgundura,kvaliapa,33,FVLI_81P: system crash in smcr_pcb_failover
+1015089,1,canceled,usage,devscreen,scrnteam,madhusmita,0,FOCUS:FVLI-1J9-FVT:Data miscompare on SSP clients
+1015079,1,canceled,vague,sysxsmcr,dimpu,pdakappa,0,FVLI_81P:OS hang after running link creation deletion in loop
+1015072,1,returned,other_s/w,devscreen,scrnteam,pdakappa,0,FVT_DEV:OS hang when screen rpm is used to run tests in loop
+1014990,2,closed,error,sysxvio_daemon,mjmcelen,madhusmita,49,FVLI-1J9-FVT:sspcache enable failed for pool
+1014976,2,canceled,duplicate,sysxsmcr,sgundura,pdakappa,8,FVLI_81P:intermittent connection failing back to TCP on CX3-CX2
+1014968,1,canceled,,hmc_screen,hmcscrn,swetha,0,FVLI-1D0: Can't create static VF via HMC cli command
+1014967,2,returned,limitation,pcimlxcent,balt,swetha,0,FVLI-1D0-ACL: port-vlan-id not visible in entstat
+1014963,1,closed,error,pcimlxcent,shouchun,pdakappa,56,FVLI_81P:Connection failing back to TCP on CX4 adapter
+1014957,1,canceled,unrecreatable,pcimlxcent,balt,swetha,1,FOCUS:FVLI-1D0:Not able to confg ip on the intf in dedicat mode
+1014945,2,returned,duplicate,sysxsmcr,arunsp,pdakappa,3,FVLI_81P:Communication happens via SMCR though IP is not mentio
+1014895,1,closed,error,pool,ninad,madhusmita,50,FVLI-1J9-FVT:sspcache disable failed due to pool hang
+1014813,1,returned,unrecreatable,sysxsmcr,harikm,pdakappa,9,FVLI_81P:OS hang after ifconfig down detach and rmdev -dl smcr0
+1014807,1,closed,error,pool,ninad,madhusmita,9,FVLI-1J9-FVT:system crash@dcTierRebuildLockState+000568
+1014799,1,working,error,ca_screen,azhamoha,vinkarne,200,HOT:FVTR_DEV:CF server crash with signal 11 in Linux SUSE,RHEL
+1014795,1,closed,error,pool,ninad,madhusmita,3,FVLI-1J9-FVT:system crash@ioReleaseTranslation+000478
+1014739,1,closed,error,pool,ninad,madhusmita,3,FVLI-1J9-FVT:cache disable blocked due to demand PG
+1014736,1,canceled,duplicate,pool,ninad,madhusmita,3,FVLI-1J9-FVT:ssp cache disable for tier failed
+1014730,1,canceled,hardware,pool,gjertsen,madhusmita,3,FVLI-1J9-FVT:system crash@tmCreateReceiver+00048C
+1014728,2,canceled,usage,sysxvio_mgrs_lpm,vkumar35,krupa,153,FVLI-161-DR:getadapter did not fail when client never logged in
+1014726,2,closed,error,pool,gjertsen,dittjose1,11,FVLI-1J9-FVT:htx error occurs after few seq of sspcache enable
+1014700,3,canceled,fixed,sysxvio_daemon,mjmcelen,dittjose1,12,FVLI-1J9-FVT:Error message is not coming for error scenario.
+1014692,1,canceled,duplicate,sysxsmcr,dimpu,pdakappa,0,FVLI_81P:OS crash while executing ifconfig down detach
+1014664,2,returned,usage,sysxsmcr,dimpu,pdakappa,1,FVLI_81P:2 links in same LG though they are in different subnet
+1014648,1,canceled,unrecreatable,dascache,vamshikrishna,madhusmita,5,FOCUS: FVLI-1J9-FVT:sspcache disable failed
+1014638,1,returned,unrecreatable,sysnet_netm,davemarq,pdakappa,15,RECR: FVLI_81P:OS crash when its idle after creating 2 LGs     
+1014629,2,canceled,duplicate,sysxvio_daemon,lakshmiy,dittjose1,27,FVLI-1J9-FVT:Node informations not shown after fresh cluster cr
+1014625,1,canceled,vague,sysxsmcr,sgundura,pdakappa,5,FVLI_81P:OS hang while trying ftp alternatively on IPv4 and IP6
+1014598,2,returned,limitation,pcimlxcent,balt,akt,12,FVLI-1AV:EID observed while running ping + nddctrl -r + entstat
+1014597,1,canceled,fixed,sysxsmcr,arunsp,kvaliapa,8,FVLI_81P: system crash in ib_unregister_client
+1014595,1,canceled,fixed,sysxvio_daemon,mjmcelen,madhusmita,147,FVT_DEV:cluster delete fail due to long running process
+1014584,1,canceled,duplicate,sysxsmcr,dimpu,kvaliapa,4,FVLI_81P: system crash while rebooting
+1014537,1,canceled,unrecreatable,entcore_v2,jmessing,kvaliapa,12,FVLI_81P: system crash at entcore_rx_replenish_buffers
+1014535,2,returned,limitation,pcimlxcent,balt,akt,13,FVLI-1AV:EID observed while running  ping flood in all interfac
+1014532,1,returned,unrecreatable,sysxsmcr,dimpu,pdakappa,6,HOT:FVLI_81P:OS crash after trying to exec diff TCP workload
+1014518,1,canceled,fixed,sysxsmcr,sgundura,kvaliapa,6,FVLI_81P: system crash while running ftp regression
+1014517,2,returned,limitation,pcimlxcent,balt,akt,13,FVLI-1AV:EID observed while running entstat + netstat -v
+1014512,1,canceled,fixed,sysxsmcr,sgundura,kvaliapa,6,FVLI_81P: system crash on remote side while running ftp
+1014510,1,closed,error,sysxsmcr,dimpu,pdakappa,62,FVLI_81P:Crash in smcr_smrg_moveto_RTS_queue_timeout error path
+1014507,1,canceled,duplicate,sysxsmcr,harikm,kvaliapa,6,FVLI_81P: system crash while running load/unload in loop
+1014505,1,canceled,duplicate,sysxsmcr,dimpu,kvaliapa,2,FVLI_81P: system crash while configuring IP on roce interface
+1014503,2,canceled,fixed,sysxsmcr,dimpu,kvaliapa,6,FVLI_81P: communication failing back to tcp with ftp
+1014501,1,canceled,unrecreatable,pcimlxcent,balt,pgohil,0,HOT:FVLI-1AT:Adapter port goes into defind state with EEH
+1014497,2,open,,sysxsmcr,arunsp,pdakappa,204,FVLI_81P:packet flow over interface which is not in ip_addr_ran
+1014496,2,canceled,duplicate,sysxsmcr,dimpu,kvaliapa,5,FVLI_81P: communication failing back to tcp after unload/load
+1014491,2,closed,error,sysxsmcr,sgundura,pdakappa,66,FVLI_81P:setclock fails sometimes with exitcode 1 and 141
+1014489,1,canceled,usage,devscreen,scrnteam,pgohil,0,HOT:FVLI-1AT:boot disk corrpt systrace on/off, memtrac on/off
+1014486,1,canceled,vague,pool,ninad,madhusmita,0,HOT:FVLI-1J9-FVT:cache disable failed for node having client IO
+1014476,1,returned,duplicate,pcimlxcent,vmansur,akt,0,FVLI-1AV:losing boot disk after systrace on/off, memtrac on/off
+1014389,2,open,,sysproc,jmcasas,lkambadu,205,FVLI-1AT:EID errpt is observed on VEA interface derived 10G CX4
+1014386,2,canceled,duplicate,exer_com,shilpac,pgohil,2,FVLI-1AT: device b31515101f06 of type CX4 need to be added
+1014372,1,canceled,duplicate,pcimlxcent,balt,swetha,3,FVLI-1D0: Hang when trying to assign ip for etherchannel
+1014367,1,canceled,duplicate,sysxsmcr,dimpu,pdakappa,3,FVLI_81P:OS hang while executing rmdev -dl smcr0
+1014352,1,canceled,fixed,pool,ninad,madhusmita,0,HOT:FVLI-1J9-FVT:system crash@dcRange2Keys+0000F4
+1014335,2,returned,usage,netcmdkern,jpvillam,pdakappa,0,FVT_DEV:ifconfig accept invalid IPv4 format for IP and netmask
+1014300,2,returned,usage,sysxsmcr,arunsp,pdakappa,11,FVLI_81P:Data comm fails when smcr enabled with supernet subnet
+1014265,2,closed,error,sysxsmcr,arunsp,pdakappa,64,FVLI_81P:CLC message format is not as per rfc7609
+1014258,2,open,,everglades,restrad,nnandula,201,FVLI-1AT:Adapter dead state with microcode &EEH
+1014253,3,closed,error,sysxsmcr,dimpu,pdakappa,22,FVLI_81P:peerid format is not as per RFC7609
+1014247,1,canceled,duplicate,sysxsmcr,sgundura,kvaliapa,4,FVLI_81P: system hang if LPAR is shutdown when links are active
+1014228,2,open,,pcimlxcent,balt,akt,191,FVLI-1AV: EID observed while running ftp+multi thread entstat
+1014196,3,open,,sysxsmcr,arunsp,pdakappa,208,FVLI_81P:result from entstat Elapsed time is not changing
+1014110,2,closed,error,sysxsmcr,sgundura,kvaliapa,20,FVLI_81P: OOB does not work with SMCR
+1014107,1,returned,duplicate,exer_com,shilpac,akt,3,FVLI-1AV: Htx is not able to identify the device.
+1014104,2,canceled,limitation,sysxsmcr,sgundura,kvaliapa,18,FVLI_81P: connection termination(4 way handshake)not working
+1014102,2,closed,error,sysxsmcr,jlhall,pdakappa,67,FVLI_81P:smcr un-install success when there was an active conn
+1014099,1,canceled,duplicate,pcimlxcent,balt,swetha,11,FVLI-1D0: Ping not working on VF with promiscuous enabled
+1014086,1,closed,error,sysxvio_daemon,mjmcelen,madhusmita,60,FVLI-1J9-FVT:SSP cachepartition cleanup failed after Cache Stop
+1014077,1,canceled,duplicate,sysxvio_daemon,mjmcelen,madhusmita,0,FVLI-1J9-FVT:SSP cahce enable hang after 7.5 hrs run
+1014075,2,closed,error,sysxsmcr,sgundura,pdakappa,46,FVLI_81P:TCP used if the IP is configured after loading SMCR
+1014032,2,closed,error,sysxsmcr,dimpu,pdakappa,47,FVLI_81P:ADD LINK fails while creating asymmetric link
+1014004,1,closed,error,sysxsmcr,sgundura,pdakappa,8,FVLI_81P:OS crashed while executing rmdev -dl smcr0
+1013997,1,closed,error,pool,ninad,madhusmita,11,FVLI-1J9-FVT:SSP cache disable hang for nodes client I/O
+1013986,2,returned,limitation,sysvmm,jajaloma,lkambadu,183,Paging creation on capi disks is working
+1013982,1,returned,vague,sysxsmcr,vmansur,pdakappa,8,FVLI_81P:OS hang while rebooting after installing htx
+1013931,1,closed,error,sysxsmcr,dimpu,kvaliapa,48,FVLI_81P: link is not coming up after down detach and up
+1013874,1,canceled,duplicate,sysxsmcr,harikm,kvaliapa,14,FVLI_81P: system crash while doing down detach of roce interfac
+1013871,1,canceled,other_s/w,pool,ninad,madhusmita,0,HOT:FVLI-1J9-FVT:system crash@]dcRangeOpBegin+000E34
+1013870,1,closed,error,sysxsmcr,dimpu,pdakappa,69,FVLI_81P:OS hang while removing the second link
+1013816,1,canceled,duplicate,pool,dcmcdoug,madhusmita,0,FVLI-1J9-FVT:system crash@csmTierDCAcquireRangeLock+00004C
+1013812,1,verify,error,sysnet_cdli,davemarq,akt,171,FVBLKLI-1AV: hang after assigning IP to etherchannel interf
+1013797,2,canceled,fixed,sysxvio_daemon,mjmcelen,madhusmita,24,RECR: FVLI-1J9-FVT:ssp cache failed to enable for newly added n
+1013740,1,closed,error,pool,ninad,madhusmita,14,FVLI-1J9-FVT:SSPcache disable failed after enable long tm
+1013721,2,closed,error,sysxvio_daemon,mjmcelen,dittjose1,80,FVLI-1J9-FVT:sspcache status shows pending for node w/o c_pool
+1013715,2,canceled,design,dascache,sangeek,dittjose1,1,FVLI-1J9-FVT:cachedisk name changes after inactive lpm.
+1013710,1,canceled,duplicate,sysxsmcr,dimpu,pdakappa,0,FVLI_81P:OS crashed while executing netop after creating peerid
+1013708,1,canceled,usage,sriov_pf_screen.afwp,tmhoffma,swetha,6,FVLI-1D0: VF is not coming up in lpar as cfgmgr is hanging
+1013703,2,canceled,limitation,sysxvio_daemon,mjmcelen,madhusmita,10,FVLI-1J9-FVT:sspcache status failed for node where pool is down
+1013698,1,canceled,,sysxsmcr,arunsp,kvaliapa,0,FVLI_81P: system crash while unloading smcr
+1013696,1,closed,error,sysxsmcr,dimpu,pdakappa,71,FVLI_81P:Both lpars crashed while executing netop in duplex
+1013692,2,canceled,fixed,pcimlxcent,balt,swetha,11,FVLI-1D0: Mismatch of the ODM Attributes
+1013691,1,canceled,unrecreatable,pool,janet,madhusmita,16,RECR: FVLI-1J9-FVT:sspcache enabled hanged with client I/O     
+1013675,1,canceled,fixed,sysxsmcr,sgundura,pdakappa,10,HOT:FVLI_81P:OS crash while executing rcp
+1013666,1,closed,error,pool,ninad,madhusmita,15,FVLI-1J9-FVT:sspcache disabled failed
+1013656,2,closed,error,sysxsmcr,dimpu,pdakappa,74,FVLI_81P:entstat shows junk value for active link groups
+1013605,1,closed,error,sysxsmcr,vmansur,pdakappa,53,FVLI_81P:Connections failing back to TCP with CLC decline
+1013599,2,closed,error,sysxsmcr,jlhall,pdakappa,181,SMCR Install packaging needs to update /etc/inittab
+1013590,2,canceled,duplicate,sysxsmcr,sgundura,kvaliapa,0,FVLI_81P: rlogin fails with "Software caused connection abort"
+1013587,1,canceled,duplicate,sysxsmcr,sgundura,pdakappa,13,FVLI_81P:rsh fails with protocol error
+1013518,1,canceled,limitation,Redfish,shawnw7,vinkarne,24,HOT:FVLI-082:LPAR is stuck with "0554" after alt_disk_copy
+1013515,1,canceled,usage,sysxsmcr,arunsp,pdakappa,6,FVLI_81P:telnet uses TCP though SMCR is enabled
+1013484,1,returned,other_s/w,devscreen,scrnteam,pdakappa,5,FVT_DEV:lpar unusable state post smcr load/unload in loop
+1013446,2,open,,pcimlxcent,shouchun,pgohil,218,FVLI-1AT:mkvdev fails sometime for 10G CX4 adapter
+1013441,1,canceled,fixed,sysxsmcr,dimpu,pdakappa,2,FVLI_81P:unload smcr crash when there was an active link
+1013436,2,canceled,limitation,sysxsmcr,sgundura,kvaliapa,16,FVLI_81P: netop  with smcr shows performance degradation
+1013431,2,open,,pcimlxcent,shouchun,pgohil,218,FVLI-1AT:enabling checksum_offload after mkdev fails
+1013429,2,canceled,usage,sysxsmcr,arunsp,kvaliapa,0,FVLI_81P: communication failback to tcp while running HTX
+1013411,1,canceled,,sysxsmcr,arunsp,pdakappa,0,FVLI_81P:Ping from CX2 to CX3 adapter fails.
+1013366,1,closed,error,sysxsmcr,sgundura,kvaliapa,48,FVLI_81P: rlogin fails with SMCR
+1013353,2,closed,error,sysxsmcr,jlhall,kvaliapa,113,FVLI_81P:ip_addr_range accept invalid values
+1013352,2,canceled,fixed,sysxsmcr,arunsp,pdakappa,28,FVLI_81P:tcp apps fail as CLC msgs are corrupted
+1013350,2,canceled,duplicate,sysxsmcr,jlhall,kvaliapa,30,FVLI_81P: SMCR is used even when port_range is zero on server s
+1013345,1,canceled,usage,pcimlxcent,shouchun,pgohil,1,FVLI-1AT: System crash when rebooted from HMC
+1013343,2,closed,error,sysxsmcr,jlhall,pdakappa,77,FVLI_81P:Link is created even though IP is not specified
+1013308,3,open,,sysxsmcr,jlhall,pdakappa,220,FVLI_81P:smcr ODM entry update give error when KE is not loaded
+1013305,1,closed,error,PF.afwp,joncfouk,swetha,11,FVLI-1D0: Not able to create VF with non-zero port vlan id
+1013303,2,returned,unrecreatable,pcimlxcent,shouchun,pgohil,136,FVLI-1AT:EID - Excessive interrupt disablement time error
