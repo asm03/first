@@ -1,4 +1,4 @@
-defect,severity,state,component,owner,orignator,age,abstract
+defect,severity,state,answer,component,owner,orignator,age,abstract
 1031644,2,open,,fcscreen,chandu,vinkarne,0,FVT_DEV:P9:fcs link up fails for first cfgmgr in Coho DA.
 1031643,1,open,,esw_pfw_screen,fwscreen,vinkarne,0,HOT:FVT_DEV:P9:FC disks not visible in SMS menu for Coho DA.
 1031575,1,open,,esw_pfw_screen,fwscreen,pgohil,1,FVLI-1D0-VEV:P9:vnic vlan netboot ping fails
