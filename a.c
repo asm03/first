@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+int main()
 {
 	printf("Hello Git ....\n");
 	printf("This is the last line ...\n");
